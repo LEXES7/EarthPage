@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --background: #05070d;
+  --foreground: #e9eef5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* faint nebula behind the night garden */
+  background-image:
+    radial-gradient(900px 600px at 70% -10%, rgba(124, 255, 178, 0.07), transparent 60%),
+    radial-gradient(700px 500px at 10% 110%, rgba(143, 227, 255, 0.06), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Leaves breathe like stars: glow ↔ dim on staggered cycles. */
+@keyframes leaf-breathe {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.92);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+.leaf-star {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: leaf-breathe 4.2s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
+/* Accessibility & battery: hold still if the user prefers reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  .leaf-star {
+    animation: none;
+    opacity: 0.9;
+  }
+}
