@@ -32,7 +32,9 @@ export default function LeafAnatomy({ plant, leaf, locked, onClose }: Props) {
   }, [onClose]);
 
   const veins = useMemo(() => buildVeins(), []);
-  const accent = plant.accent;
+  const accent = plant.accent ?? "#9bdcff";
+  const foliage = plant.foliage ?? "#4aa56a";
+  const leafStyle = plant.leafStyle ?? "broadleaf";
 
   return (
     <div
@@ -64,11 +66,11 @@ export default function LeafAnatomy({ plant, leaf, locked, onClose }: Props) {
             <defs>
               <radialGradient id="anat-leaf" cx="50%" cy="42%" r="62%">
                 <stop offset="0%" stopColor={accent} stopOpacity="0.5" />
-                <stop offset="100%" stopColor={plant.foliage} stopOpacity="0.18" />
+                <stop offset="100%" stopColor={foliage} stopOpacity="0.18" />
               </radialGradient>
             </defs>
             <path
-              d={LEAF_PATHS[plant.leafStyle]}
+              d={LEAF_PATHS[leafStyle]}
               transform="translate(130 180) scale(120)"
               fill="url(#anat-leaf)"
               stroke={accent}
@@ -116,7 +118,7 @@ export default function LeafAnatomy({ plant, leaf, locked, onClose }: Props) {
             <p className="mt-4 text-sm leading-relaxed text-white/80">{leaf.value}</p>
           )}
 
-          <CrossSection accent={accent} foliage={plant.foliage} dimmed={locked} />
+          <CrossSection accent={accent} foliage={foliage} dimmed={locked} />
 
           <ol className="mt-4 space-y-1.5">
             {LAYERS.map((l, i) => (

@@ -2,15 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getPlant, getPlantSlugs } from "@/lib/plants";
+import { getFlagshipSlugs, getPlant } from "@/lib/plants";
 import { plantTier } from "@/data/types";
 import { getViewer } from "@/lib/auth";
 import { gatePlant } from "@/lib/gate";
 import PlantBook from "@/components/PlantBook";
 
+// Prerender the flagship books; the rest render on demand.
 export async function generateStaticParams() {
-  const slugs = await getPlantSlugs();
-  return slugs.map((slug) => ({ slug }));
+  return getFlagshipSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -23,8 +23,8 @@ export async function generateMetadata({
   if (!plant) return {};
   return {
     title: `${plant.commonName} (${plant.scientificName}) — EarthPages`,
-    description: plant.summary,
-    openGraph: { images: [plant.image] },
+    description: plant.summary ?? plant.description?.slice(0, 160),
+    openGraph: { images: plant.image ? [plant.image] : [] },
   };
 }
 
@@ -51,8 +51,8 @@ export default async function PlantPage({
             image={plant.image}
             name={plant.commonName}
             scientific={plant.scientificName}
-            rarity={plant.rarity}
-            summary={plant.summary}
+            rarity={plant.rarity ?? "rare"}
+            summary={plant.summary ?? plant.description ?? ""}
             signedIn={Boolean(viewer.userId)}
           />
         ) : (

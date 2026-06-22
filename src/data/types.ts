@@ -5,6 +5,22 @@ export type Tier = "free" | "pro";
 
 export type Rarity = "common" | "uncommon" | "rare" | "endangered";
 
+export type PlantKind =
+  | "tree"
+  | "conifer"
+  | "shrub"
+  | "fruit"
+  | "vegetable"
+  | "herb"
+  | "flower"
+  | "fern"
+  | "palm"
+  | "succulent"
+  | "grass"
+  | "climber"
+  | "aquatic"
+  | "houseplant";
+
 // Drives the shape of generated foliage so each species reads as itself.
 export type LeafStyle = "broadleaf" | "lobed" | "frond" | "needle";
 
@@ -93,38 +109,41 @@ export interface Reference {
   url: string;
 }
 
+// Core fields exist for every species (catalog); the rest are filled in for
+// curated "flagship" species that have a full, sourced record.
 export interface Plant {
   slug: string;
   commonName: string;
   scientificName: string;
-  rarity: Rarity;
-  accent: string; // species glow hue, used across the cinematic treatment
-  foliage: string; // base leaf colour for the anatomy diagram
-  bark: string;
-  leafStyle: LeafStyle;
-  /** Portrait under /public/plants/<slug>.jpg */
-  image: string;
-  credit: ImageCredit;
-  taxonomy: { order: string; family: string; genus: string; species: string };
-  otherNames: string[];
-  etymology: string;
-  summary: string; // one-line, for cards and meta
-  description: string; // fuller overview
-  morphology: Morphology;
-  phenology: Phenology;
-  distribution: Distribution;
-  lifespan: string;
-  growthRate: string;
-  ecology: string;
-  conservation: Conservation;
-  edibility: EdibilityInfo;
-  uses: Use[];
+  kind: PlantKind;
+  image: string; // local path or remote URL
+  source?: string; // page the image/summary came from (attribution)
+  rarity?: Rarity;
+  summary?: string; // one-line, for cards and meta
+  description?: string; // fuller overview
+  accent?: string;
+  foliage?: string;
+  bark?: string;
+  leafStyle?: LeafStyle;
+  credit?: ImageCredit;
+  taxonomy?: { order?: string; family?: string; genus?: string; species?: string };
+  otherNames?: string[];
+  etymology?: string;
+  morphology?: Morphology;
+  phenology?: Phenology;
+  distribution?: Distribution;
+  lifespan?: string;
+  growthRate?: string;
+  ecology?: string;
+  conservation?: Conservation;
+  edibility?: EdibilityInfo;
+  uses?: Use[];
   cultivation?: { propagation: string; care: string };
-  identification: string[];
+  identification?: string[];
   lookAlikes?: LookAlike[];
-  facts: string[];
-  references: Reference[];
-  structure: TreeStructure;
+  facts?: string[];
+  references?: Reference[];
+  structure?: TreeStructure;
 }
 
 // Rare and endangered species are Pro-only.
@@ -134,6 +153,7 @@ export function plantTier(p: Pick<Plant, "rarity">): Tier {
 
 // The facts shown as leaf cards, flattened from the branch structure.
 export function allLeaves(plant: Plant): Leaf[] {
+  if (!plant.structure) return [];
   const out: Leaf[] = [];
   const walk = (b: Branch) => {
     out.push(...b.leaves);

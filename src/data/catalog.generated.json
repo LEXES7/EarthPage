@@ -1,0 +1,2081 @@
+[
+  {
+    "slug": "english-oak",
+    "commonName": "English Oak",
+    "scientificName": "Quercus robur",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg",
+    "source": "https://en.wikipedia.org/wiki/Quercus_robur",
+    "description": "Quercus robur, pedunculate oak, or English oak, is a species of flowering plant in the beech and oak family, Fagaceae. It is a large tree, native to Europe and western Asia, and is widely cultivated in other temperate regions. It grows on soils of near neutral acidity in the lowlands and is notable for its value to natural ecosystems, supporting a diversity of herbivorous insects, acorn eating mammals and birds, and fungi."
+  },
+  {
+    "slug": "sessile-oak",
+    "commonName": "Sessile Oak",
+    "scientificName": "Quercus petraea",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Quercus_petraea_06.jpg",
+    "source": "https://en.wikipedia.org/wiki/Quercus_petraea",
+    "description": "Quercus petraea, commonly known as the sessile oak, Welsh oak, Cornish oak, Irish oak or durmast oak, is a species of deciduous oak tree native to most of Europe and into Anatolia and Iran. The sessile oak is the national tree of Ireland, and an unofficial emblem in Wales and Cornwall."
+  },
+  {
+    "slug": "cork-oak",
+    "commonName": "Cork Oak",
+    "scientificName": "Quercus suber",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Cork_oak_%2828864190188%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Quercus_suber",
+    "description": "Quercus suber, commonly called the cork oak, is a medium-sized, evergreen oak tree in the section Quercus sect. Cerris. It is the primary source of cork for wine bottle stoppers and other uses, such as cork flooring and as the cores of cricket balls.  It is native to southwest Europe and northwest Africa. In the Mediterranean basin the tree is an ancient species with fossil remnants dating back to the Tertiary period. It can survive for as long as two centuries. Typically, once it reaches 25 years old, its thick bark can be harvested for cork every 9 to 12 years without causing harm to the tre"
+  },
+  {
+    "slug": "red-maple",
+    "commonName": "Red Maple",
+    "scientificName": "Acer rubrum",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Acer_rubrum_15-p.bot-a.rubrum-114.jpg",
+    "source": "https://en.wikipedia.org/wiki/Acer_rubrum",
+    "description": "Acer rubrum, the red maple, also known as swamp maple, water maple, or soft maple, is one of the most common and widespread deciduous trees of eastern and central North America. The U.S. Forest Service recognizes it as the most abundant native tree in eastern North America. The red maple ranges from southeastern Manitoba around the Lake of the Woods on the border with Ontario and Minnesota, east to Newfoundland, south to Florida, and southwest to East Texas. Many of its features, especially its leaves, are quite variable in form. At maturity, it often attains a height around 30 m (100 ft). Its"
+  },
+  {
+    "slug": "sugar-maple",
+    "commonName": "Sugar Maple",
+    "scientificName": "Acer saccharum",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Acer_saccharum_1-jgreenlee_%285098070608%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Acer_saccharum",
+    "description": "Acer saccharum, the sugar maple, is a species of flowering plant in the soapberry and lychee family Sapindaceae. It is native to the hardwood forests of eastern Canada and the eastern United States. Sugar maple is best known for being the primary source of maple syrup and for its brightly colored autumn foliage. It may also be called \"rock maple,\" \"sugar tree,\" \"sweet maple,\" or, particularly in reference to the wood, \"hard maple,\" \"birds-eye maple,\" or \"curly maple,\" the last two being specially figured lumber."
+  },
+  {
+    "slug": "japanese-maple",
+    "commonName": "Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Acer_palmatum0.jpg",
+    "source": "https://en.wikipedia.org/wiki/Acer_palmatum",
+    "description": "Acer palmatum, commonly known as Japanese maple, palmate maple, or smooth Japanese maple (Korean: danpungnamu [단풍나무]; Japanese: irohamomiji [イロハモミジ] or momiji [紅葉]), is a species of woody plant native to Korea, Japan, China, eastern Mongolia, and far eastern Russia. Many different cultivars of this maple have been selected and they are grown worldwide for their large variety of attractive forms, leaf shapes, and spectacular colors."
+  },
+  {
+    "slug": "norway-maple",
+    "commonName": "Norway Maple",
+    "scientificName": "Acer platanoides",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Spitz-Ahorn%28mbo%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Acer_platanoides",
+    "description": "Acer platanoides, commonly known as the Norway maple, is a species of maple native to eastern and central Europe and western Asia, from Spain east to Russia, north to southern Scandinavia and southeast to northern Iran. It was introduced to North America in the mid-1700s as a shade tree. It is a member of the family Sapindaceae."
+  },
+  {
+    "slug": "silver-birch",
+    "commonName": "Silver Birch",
+    "scientificName": "Betula pendula",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Betula_pendula_Finland.jpg",
+    "source": "https://en.wikipedia.org/wiki/Betula_pendula",
+    "description": "Betula pendula, commonly known as silver birch, warty birch, European white birch, or East Asian white birch, is a species of tree in the family Betulaceae, native to Europe and parts of Asia, though in southern Europe, it is only found at higher altitudes. Its range extends into Siberia, China, and southwest Asia in the mountains of northern Turkey, the Caucasus, and northern Iran. It has been introduced into North America, where it is known as the European white birch or weeping birch and is considered invasive in some states in the United States and parts of Canada."
+  },
+  {
+    "slug": "paper-birch",
+    "commonName": "Paper Birch",
+    "scientificName": "Betula papyrifera",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/13._The_Fall_of_Acadia_%284039110079%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Betula_papyrifera",
+    "description": "Betula papyrifera (paper birch, also known as (American) white birch and canoe birch) is a short-lived species of birch native to northern North America. Paper birch is named after the tree's thin white bark, which often peels in paper-like layers from the trunk. Paper birch is often one of the first species to colonize a burned area within the northern latitudes, and is an important species for moose browsing. Primary commercial uses for paper birch wood are as boltwood and sawlogs, while secondary products include firewood and pulpwood. It is the provincial tree of Saskatchewan and the state"
+  },
+  {
+    "slug": "european-beech",
+    "commonName": "European Beech",
+    "scientificName": "Fagus sylvatica",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fagus-sylvatica-cansiglio-forest-italy.jpg",
+    "source": "https://en.wikipedia.org/wiki/Fagus_sylvatica",
+    "description": "Fagus sylvatica, the European beech or common beech, is a large deciduous tree in the beech family with smooth silvery-grey bark, large leaf area, and a short trunk with low branches. It is native to much of Europe, growing in humid climates."
+  },
+  {
+    "slug": "american-beech",
+    "commonName": "American Beech",
+    "scientificName": "Fagus grandifolia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Beech_with_Branches.jpg",
+    "source": "https://en.wikipedia.org/wiki/Fagus_grandifolia",
+    "description": "Fagus grandifolia, the American beech or North American beech, is a species of tree growing to 16–35 meters (52–115 feet) tall. It is one of two beech species native to North America, the other occurring in Mexico. It flourished over most of the continent prior to the last ice age, but is now limited to the east. The tree is shade tolerant and found in forests in the final stage of succession."
+  },
+  {
+    "slug": "horse-chestnut",
+    "commonName": "Horse Chestnut",
+    "scientificName": "Aesculus hippocastanum",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Illustration_Aesculus_hippocastanum0_clean.jpg",
+    "source": "https://en.wikipedia.org/wiki/Aesculus_hippocastanum",
+    "description": "Aesculus hippocastanum, the horse chestnut, is a species of flowering plant in the maple, soapberry and lychee family Sapindaceae. It is a large, deciduous, synoecious (hermaphroditic-flowered) tree. It is also called horse-chestnut, European horsechestnut, buckeye, and conker tree. It is not to be confused with the sweet chestnut or Spanish chestnut, Castanea sativa, which is a tree in another family, Fagaceae."
+  },
+  {
+    "slug": "sweet-chestnut",
+    "commonName": "Sweet Chestnut",
+    "scientificName": "Castanea sativa",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chestnuts.jpg",
+    "source": "https://en.wikipedia.org/wiki/Sweet_chestnut",
+    "description": "The sweet chestnut (Castanea sativa), also known as the Spanish chestnut or European chestnut, is a species of tree in the family Fagaceae, native to Southern Europe and Anatolia, and widely cultivated in Western and Central Europe. A substantial, long-lived deciduous tree, it produces an edible seed, the chestnut, which has been used in cooking since ancient times."
+  },
+  {
+    "slug": "common-ash",
+    "commonName": "Common Ash",
+    "scientificName": "Fraxinus excelsior",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Fraxinus_excelsior.jpg",
+    "source": "https://en.wikipedia.org/wiki/Fraxinus_excelsior",
+    "description": "Fraxinus excelsior, known as the ash, or European ash or common ash to distinguish it from other types of ash, is a flowering plant species in the olive family Oleaceae. It is native throughout mainland Europe east to the Caucasus and Alborz mountains, and west to Great Britain and Ireland, the latter determining its western boundary. The northernmost location is in the Trondheimsfjord region of Norway. The species is widely cultivated and reportedly naturalised in New Zealand and in scattered locales in the United States and Canada. The wood has many uses as it is flexible, workable, strong a"
+  },
+  {
+    "slug": "european-hornbeam",
+    "commonName": "European Hornbeam",
+    "scientificName": "Carpinus betulus",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Carpinus_betulus_-_Hunsr%C3%BCck_001.jpg",
+    "source": "https://en.wikipedia.org/wiki/Carpinus_betulus",
+    "description": "Carpinus betulus, the European or common hornbeam, is a species of tree in the birch family Betulaceae, native to Western Asia and central, eastern, and southern Europe, including southern England. It requires a warm climate for good growth, and occurs only at elevations up to 1,000 metres (3,300 ft). It grows in mixed stands with oak, and in some areas beech, and is also a common tree in scree forests. Hornbeam was also known as yoke elm. Together with Carpinus orientalis and Carpinus austrobalcanica, it is one of the three hornbeams found in Europe."
+  },
+  {
+    "slug": "small-leaved-lime",
+    "commonName": "Small-leaved Lime",
+    "scientificName": "Tilia cordata",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tilia-cordata2.JPG",
+    "source": "https://en.wikipedia.org/wiki/Tilia_cordata",
+    "description": "Tilia cordata, the small-leaved lime or small-leaved linden, is a species of tree in the family Malvaceae, native to much of Europe. Its other common names include little-leaf or littleleaf linden, or traditionally in South East England, pry or pry tree. Its range extends from Britain through mainland Europe to the Caucasus and western Asia. In the south of its range it is restricted to high elevations."
+  },
+  {
+    "slug": "london-plane",
+    "commonName": "London Plane",
+    "scientificName": "Platanus x acerifolia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Berkeley_Square_-_geograph.org.uk_-_911963.jpg",
+    "source": "https://en.wikipedia.org/wiki/London_plane",
+    "description": "The London plane, or sometimes hybrid plane, Platanus × hispanica, is a tree in the genus Platanus. It is often known by the synonym Platanus × acerifolia, a later name. It is a hybrid of Platanus orientalis (oriental plane) and Platanus occidentalis (American sycamore)."
+  },
+  {
+    "slug": "american-sycamore",
+    "commonName": "American Sycamore",
+    "scientificName": "Platanus occidentalis",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Buttonball_Sycamore_in_Sunderland%2C_MA_%28March_2019%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Platanus_occidentalis",
+    "description": "Platanus occidentalis, also known as American sycamore, American planetree, western plane, occidental plane, buttonwood, and water beech, is a species of Platanus native to the eastern and central United States, the mountains of northeastern Mexico, extreme southern Ontario, and extreme southern Quebec. It is usually called sycamore in North America, a name which can refer to other types of trees in other parts of the world; in the United Kingdom, for example, the name sycamore typically refers to Acer pseudoplatanus. The American sycamore is a long-lived species, typically surviving at least "
+  },
+  {
+    "slug": "weeping-willow",
+    "commonName": "Weeping Willow",
+    "scientificName": "Salix babylonica",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Salix_babylonica",
+    "description": "Salix babylonica (Babylon willow or weeping willow; Chinese: 垂柳; pinyin: chuí liǔ) is a species of willow native to dry areas of northern China, Korea, Mongolia, Japan, and Siberia but cultivated for millennia elsewhere in Asia, being traded along the Silk Road to southwest Asia and Europe."
+  },
+  {
+    "slug": "white-willow",
+    "commonName": "White Willow",
+    "scientificName": "Salix alba",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Salix_alba_leaves.jpg",
+    "source": "https://en.wikipedia.org/wiki/Salix_alba",
+    "description": "Salix alba, the white willow, is a species of willow native to Europe and western and Central Asia. The name derives from the white tone to the undersides of the leaves."
+  },
+  {
+    "slug": "quaking-aspen",
+    "commonName": "Quaking Aspen",
+    "scientificName": "Populus tremuloides",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon%2C_Nevada.jpg",
+    "source": "https://en.wikipedia.org/wiki/Populus_tremuloides",
+    "description": "Populus tremuloides is a deciduous tree native to cooler areas of North America, one of several species referred to by the common name aspen. It is commonly called quaking aspen, trembling aspen, American aspen, mountain or golden aspen, trembling poplar, white poplar, and popple, as well as others. The trees have tall trunks, up to 25 metres (82 feet) tall, with smooth pale bark, scarred with black. The glossy green leaves, dull beneath, become golden to yellow, rarely red, in autumn. The species often propagates through its roots to form large clonal groves originating from a shared root sys"
+  },
+  {
+    "slug": "black-poplar",
+    "commonName": "Black Poplar",
+    "scientificName": "Populus nigra",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Populus_nigra_kz1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Populus_nigra",
+    "description": "Populus nigra, the black poplar, is a species of cottonwood poplar, the type species of section Aigeiros of the genus Populus, native to Europe, southwest and central Asia, and northwest Africa."
+  },
+  {
+    "slug": "eastern-cottonwood",
+    "commonName": "Eastern Cottonwood",
+    "scientificName": "Populus deltoides",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Peuplier_delto%C3%AFde_feuillage.jpg",
+    "source": "https://en.wikipedia.org/wiki/Populus_deltoides",
+    "description": "Populus deltoides, the eastern cottonwood or necklace poplar, is a species of cottonwood poplar native to North America, growing throughout the eastern, central, and southwestern United States as well as the southern Canadian prairies, the southernmost part of eastern Canada, and northeastern Mexico."
+  },
+  {
+    "slug": "common-hawthorn",
+    "commonName": "Common Hawthorn",
+    "scientificName": "Crataegus monogyna",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Hawthorn_fruit.JPG",
+    "source": "https://en.wikipedia.org/wiki/Crataegus_monogyna",
+    "description": "Crataegus monogyna, known as common hawthorn, whitethorn, one-seed hawthorn, or single-seeded hawthorn, is a species of flowering plant in the rose family, Rosaceae. It grows to about 10 metres (33 feet) tall, producing hermaphrodite flowers in late spring. The berry-like pomes (known as haws) contain a stone-encased seed."
+  },
+  {
+    "slug": "rowan",
+    "commonName": "Rowan",
+    "scientificName": "Sorbus aucuparia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rowan_tree_20081002b.jpg",
+    "source": "https://en.wikipedia.org/wiki/Sorbus_aucuparia",
+    "description": "Sorbus aucuparia, commonly called rowan (, also UK: ) and mountain-ash, is a species of deciduous tree or shrub in the rose family."
+  },
+  {
+    "slug": "tulip-tree",
+    "commonName": "Tulip Tree",
+    "scientificName": "Liriodendron tulipifera",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Liriodendron_tulipifera_%28arbre%29_-_Laeken.JPG",
+    "source": "https://en.wikipedia.org/wiki/Liriodendron_tulipifera",
+    "description": "Liriodendron tulipifera—known as the tulip tree, American tulip tree, tulipwood, tuliptree, tulip poplar, whitewood, fiddletree, lynn-tree, hickory-poplar, and yellow-poplar—is the North American representative of the two-species genus Liriodendron (the other member is Liriodendron chinense). It is native to eastern North America from Southern Ontario and possibly southern Quebec west to Illinois, and east to southwestern Massachusetts, then south to central Florida and Louisiana."
+  },
+  {
+    "slug": "southern-magnolia",
+    "commonName": "Southern Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Magn%C3%B2lia_a_Verbania.JPG",
+    "source": "https://en.wikipedia.org/wiki/Magnolia_grandiflora",
+    "description": "Magnolia grandiflora, commonly known as the southern magnolia or bull bay, is a tree of the family Magnoliaceae native to the Southeastern United States, from Virginia to central Florida, and west to East Texas. Reaching 27.5 m (90 ft) in height, it is a large, striking evergreen tree, with large, dark-green leaves up to 20 cm (7+3⁄4 in) long and 12 cm (4+3⁄4 in) wide, and large, white, fragrant flowers up to 30 cm (12 in) in diameter."
+  },
+  {
+    "slug": "black-walnut",
+    "commonName": "Black Walnut",
+    "scientificName": "Juglans nigra",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Black_Walnut_nut_and_leave_detail.JPG",
+    "source": "https://en.wikipedia.org/wiki/Juglans_nigra",
+    "description": "Juglans nigra, the eastern American black walnut, is a species of deciduous tree in the walnut family, Juglandaceae, native to central and eastern North America, growing mostly in riparian zones."
+  },
+  {
+    "slug": "english-walnut",
+    "commonName": "English Walnut",
+    "scientificName": "Juglans regia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Noyer_centenaire_en_automne.JPG",
+    "source": "https://en.wikipedia.org/wiki/Juglans_regia",
+    "description": "Juglans regia, known by various common names including the common walnut, English walnut,  or Persian walnut amongst other names, is a species of walnut. It is native to Eurasia in at least southwest and central Asia and southeast Europe, but its exact natural area is obscure due to its long history of cultivation. "
+  },
+  {
+    "slug": "pecan",
+    "commonName": "Pecan",
+    "scientificName": "Carya illinoinensis",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Carya_illinoinensis.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pecan",
+    "description": "The pecan ( pih-KAN, also US:  pih-KAHN, PEE-kan, UK:  PEE-kən; Carya illinoinensis) is a species of hickory native to the Southern United States and northern Mexico in the region of the Mississippi River. "
+  },
+  {
+    "slug": "honey-locust",
+    "commonName": "Honey Locust",
+    "scientificName": "Gleditsia triacanthos",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gleditsia_triacanthos_%28Honeylocust%29_%2838246396371%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Honey_locust",
+    "description": "The honey locust (Gleditsia triacanthos),  also known as the thorny locust or thorny honeylocust, is a deciduous tree in the family Fabaceae, native to central North America where it is mostly found in the moist soil of river valleys. Honey locust trees are highly adaptable to different environments, and the species has been introduced worldwide. Outside its natural range it can be an aggressive, damaging invasive species."
+  },
+  {
+    "slug": "black-locust",
+    "commonName": "Black Locust",
+    "scientificName": "Robinia pseudoacacia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Robina9146.JPG",
+    "source": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia",
+    "description": "Robinia pseudoacacia, commonly known as black locust, is a medium-sized hardwood deciduous tree, belonging to the tribe Robinieae of the legume family. Another common name is false acacia, a literal translation of the specific name (pseudo [Greek ψευδο-] meaning fake or false and acacia referring to the genus of plants with the same name)."
+  },
+  {
+    "slug": "jacaranda",
+    "commonName": "Jacaranda",
+    "scientificName": "Jacaranda mimosifolia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Jacarand%C3%A1-mimoso_%28do_tupi_%C3%AEakarand%C3%A1%29_-_54942878507_02.jpg",
+    "source": "https://en.wikipedia.org/wiki/Jacaranda_mimosifolia",
+    "description": "Jacaranda mimosifolia is a sub-tropical tree native to south-central South America that has been widely planted elsewhere because of its attractive and long-lasting violet-colored flowers.  It is also known as the jacaranda, blue jacaranda, Nupur or black poui. Older sources call it J. acutifolia, but modern authorities usually classify it as J. mimosifolia. In scientific usage, the name \"jacaranda\" refers to the genus Jacaranda, which has many other members, but in horticultural and everyday usage, it nearly always means the blue jacaranda."
+  },
+  {
+    "slug": "royal-poinciana",
+    "commonName": "Royal Poinciana",
+    "scientificName": "Delonix regia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Royal_Poinciana.jpg",
+    "source": "https://en.wikipedia.org/wiki/Delonix_regia",
+    "description": "Delonix regia is a species of flowering plant in the bean family Fabaceae, subfamily Caesalpinioideae native to Madagascar. It is noted for its fern-like leaves and flamboyant display of orange-red flowers over summer. In many tropical parts of the world it is grown as an ornamental tree. It is a non-nodulating legume."
+  },
+  {
+    "slug": "baobab",
+    "commonName": "Baobab",
+    "scientificName": "Adansonia digitata",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Baobab_and_elephant%2C_Tanzania.jpg",
+    "source": "https://en.wikipedia.org/wiki/Adansonia_digitata",
+    "description": "Adansonia digitata, the African baobab, is the most widespread tree species of the genus Adansonia, the baobabs, and is native to the African continent and the southern Arabian Peninsula (Yemen, Oman). These are long-lived pachycauls; radiocarbon dating has shown at least one individual to be 1,275 years old. They are typically found in dry, hot savannas of sub-Saharan Africa, where they dominate the landscape and reveal the presence of a watercourse from afar. They have traditionally been valued as sources of food, water, health remedies or places of shelter and are a key food source for many"
+  },
+  {
+    "slug": "banyan",
+    "commonName": "Banyan",
+    "scientificName": "Ficus benghalensis",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Great_banyan_tree_kol.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ficus_benghalensis",
+    "description": "Ficus benghalensis, Ficus indica, or Ficus audrey commonly known as banyan, banyan fig, audrey fig and Indian banyan, is a tree native to the Indian subcontinent. Specimens in India are among the largest trees in the world by canopy coverage. It is also known as a \"strangler fig\" because like many other trees in the genus Ficus it starts out as epiphyte, that is, leaning on another tree that it ends up enveloping."
+  },
+  {
+    "slug": "sacred-fig",
+    "commonName": "Sacred Fig",
+    "scientificName": "Ficus religiosa",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ficus_religiosa_Bo.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ficus_religiosa",
+    "description": "Ficus religiosa or sacred fig is a species of fig native to the Indian subcontinent and Indochina that belongs to Moraceae, the fig or mulberry family. It is also known as the bodhi tree, bo tree, peepul tree, peepal tree, pipala tree or ashvattha tree (in Bangladesh, India and Nepal). The sacred fig is considered to have a religious significance in four major religions that originated on the Indian subcontinent: Hinduism, Buddhism, Sikhism and Jainism. Hindu and Jain ascetics consider the species to be sacred and often meditate under it. Gautama Buddha is believed to have attained enlightenme"
+  },
+  {
+    "slug": "neem",
+    "commonName": "Neem",
+    "scientificName": "Azadirachta indica",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Neem_Tree_in_Rajasthan%2C_India.jpg",
+    "source": "https://en.wikipedia.org/wiki/Azadirachta_indica",
+    "description": "Azadirachta indica, commonly known as neem, margosa, nimtree or Indian lilac, is a tree in the mahogany family Meliaceae. It is one of the two species in the genus Azadirachta. It is native to the Indian subcontinent and to parts of Southeast Asia, but is naturalized and grown around the world in tropical and subtropical areas. Its fruits and seeds are the source of neem oil. Nim is a Hindustani noun derived from Sanskrit nimba (निंब)."
+  },
+  {
+    "slug": "teak",
+    "commonName": "Teak",
+    "scientificName": "Tectona grandis",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Starr_010304-0485_Tectona_grandis.jpg",
+    "source": "https://en.wikipedia.org/wiki/Teak",
+    "description": "Teak (Tectona grandis) is a tropical hardwood tree species in the family Lamiaceae. It is a large, deciduous tree that occurs in mixed hardwood forests. Tectona grandis has small, fragrant white flowers arranged in dense clusters (panicles) at the end of the branches. These flowers contain both types of reproductive organs (perfect flowers). The large, papery leaves of teak trees are often hairy on the lower surface. Teak wood has a leather-like smell when it is freshly milled and is particularly valued for its durability and water resistance. The wood is used for boat building, exterior const"
+  },
+  {
+    "slug": "mahogany",
+    "commonName": "Mahogany",
+    "scientificName": "Swietenia mahagoni",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tree_in_new_leaves_I_IMG_6222.jpg",
+    "source": "https://en.wikipedia.org/wiki/Swietenia_mahagoni",
+    "description": "Swietenia mahagoni, commonly known as American mahogany, Cuban mahogany, small-leaved mahogany, and West Indian mahogany, is a species of Swietenia native to the broader Caribbean bioregion. It is the species from which the original mahogany wood was produced. Mahogany is grown as a plantation tree and sold in timber markets in Kerala, India. Swietenia mahagoni is listed as \"Threatened\" in the Preservation of Native Flora of Florida Act. It is the national tree of the Dominican Republic."
+  },
+  {
+    "slug": "blue-gum",
+    "commonName": "Blue Gum",
+    "scientificName": "Eucalyptus globulus",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Eucalyptus_globulus_subsp._maidenii.jpg",
+    "source": "https://en.wikipedia.org/wiki/Eucalyptus_globulus",
+    "description": "Eucalyptus globulus, commonly known as southern blue gum or blue gum, is a species of flowering plant in the family Myrtaceae. It is a tall, evergreen tree endemic to southeastern Australia. This Eucalyptus species has mostly smooth bark, juvenile leaves that are whitish and waxy on the lower surface, glossy green, lance-shaped adult leaves, glaucous, ribbed flower buds arranged singly or in groups of three or seven in leaf axils, white flowers and woody fruit."
+  },
+  {
+    "slug": "rainbow-eucalyptus",
+    "commonName": "Rainbow Eucalyptus",
+    "scientificName": "Eucalyptus deglupta",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/EucalyptusDeglupta_TallTree.jpg",
+    "source": "https://en.wikipedia.org/wiki/Eucalyptus_deglupta",
+    "description": "Eucalyptus deglupta is a species of tall tree, commonly known as the rainbow eucalyptus, Mindanao gum, or rainbow gum that is native to the Philippines, Indonesia and Papua New Guinea. It is the only Eucalyptus species that usually lives in rainforest, with a natural range that extends into the Northern Hemisphere. It is characterized by multi-coloured bark."
+  },
+  {
+    "slug": "ginkgo",
+    "commonName": "Ginkgo",
+    "scientificName": "Ginkgo biloba",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/GINKGOBAUM-2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ginkgo_biloba",
+    "description": "Ginkgo biloba, commonly known as ginkgo ( GINK-oh, -⁠goh), also known as the maidenhair tree, and often misspelled \"gingko\" (see Etymology below) is a species of gymnosperm tree native to East Asia. It is the last living species in the order Ginkgoales, which first appeared over 290 million years ago. Fossils similar to the living species, belonging to the genus Ginkgo, extend back to the Middle Jurassic epoch about 170 million years ago. The tree was cultivated early in human history, remains commonly planted, and is widely regarded as a living fossil."
+  },
+  {
+    "slug": "japanese-cherry",
+    "commonName": "Japanese Cherry",
+    "scientificName": "Prunus serrulata",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cerisier_du_Japon_Prunus_serrulata.jpg",
+    "source": "https://en.wikipedia.org/wiki/Prunus_serrulata",
+    "description": "Prunus serrulata or Japanese cherry is a species of cherry tree that grows wild in Japan, China, Korea and Vietnam. The term also refers to a cultivar produced from Prunus speciosa (Oshima cherry), a cherry tree endemic in Japan. Historically, the Japanese have developed many cultivars by selective breeding of cherry trees, which are produced by the complicated crossing of several wild species, and they are used for ornamental purposes all over the world. Of these, the cultivars produced by complex interspecific hybrids based on the Oshima cherry are also known as the Cerasus Sato-zakura Group"
+  },
+  {
+    "slug": "eastern-redbud",
+    "commonName": "Eastern Redbud",
+    "scientificName": "Cercis canadensis",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/RedbudOhio02.jpg",
+    "source": "https://en.wikipedia.org/wiki/Cercis_canadensis",
+    "description": "Cercis canadensis, the eastern redbud, is a large deciduous shrub or small tree, native to eastern North America from southern Michigan south to central Mexico, west to New Mexico, but able to thrive as far west as California and as far north as southern Ontario. It is the state tree of Oklahoma and the official city tree of Huntington Beach. The prevalence of the so-called \"Columbus strain\" has seen the residents of Columbus, Wisconsin, embrace the plant in their city's identity. Known as the \"Redbud City,\" the town hosts \"Redbud Day\" annually the Saturday before Mother's Day, organizing a va"
+  },
+  {
+    "slug": "flowering-dogwood",
+    "commonName": "Flowering Dogwood",
+    "scientificName": "Cornus florida",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Cornus_florida_Arkansas.jpg",
+    "source": "https://en.wikipedia.org/wiki/Cornus_florida",
+    "description": "Cornus florida, the flowering dogwood or American dogwood, is a species of flowering tree in the family Cornaceae native to eastern North America and northern Mexico. An endemic population once spanned from southernmost coastal Maine south to northern Florida and west to the Mississippi River.  The tree is commonly planted as an ornamental in residential and public areas because of its showy bracts and interesting bark structure."
+  },
+  {
+    "slug": "sweetgum",
+    "commonName": "Sweetgum",
+    "scientificName": "Liquidambar styraciflua",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2014-11-02_13_06_29_Sweet_Gum_during_autumn_along_Lower_Ferry_Road_in_Ewing%2C_New_Jersey.JPG",
+    "source": "https://en.wikipedia.org/wiki/Liquidambar_styraciflua",
+    "description": "Liquidambar styraciflua, commonly known as the American sweetgum among other names, is a deciduous tree in the genus Liquidambar native to warm temperate areas of eastern North America and tropical montane regions of Mexico and Central America. Sweetgum is one of the main valuable forest trees in the southeastern United States, and is a popular ornamental tree in temperate climates. It is recognizable by the combination of its five-pointed star-shaped leaves (similar to maple leaves) and its hard, spiked fruits. It is currently classified in the plant family Altingiaceae, but was formerly cons"
+  },
+  {
+    "slug": "american-elm",
+    "commonName": "American Elm",
+    "scientificName": "Ulmus americana",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/American_Elm_Tree%2C_Old_South_Street%2C_Northampton%2C_MA_-_October_2019.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ulmus_americana",
+    "description": "Ulmus americana, generally known as the American elm or, less commonly, as the white elm or water elm, is a species of elm native to eastern North America. The trees can live for several hundred years. It is a very hardy species that can withstand low winter temperatures.  The American elm was once exceptionally common as a street tree, its tolerance of urban conditions making it a popular choice to line American streets in the 19th and early 20th centuries.  The coming of beetles bearing Dutch elm disease devastated the American elm population, starting in the 1920s.  The species still holds "
+  },
+  {
+    "slug": "common-alder",
+    "commonName": "Common Alder",
+    "scientificName": "Alnus glutinosa",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20120904Alnus_glutinosa01.jpg",
+    "source": "https://en.wikipedia.org/wiki/Alnus_glutinosa",
+    "description": "Alnus glutinosa, the common alder, black alder, European alder, European black alder, or just alder, is a species of tree in the family Betulaceae, native to most of Europe, southwest Asia and northern Africa. It thrives in wet locations where its association with the bacterium Frankia alni enables it to grow in poor quality soils. It is a medium-sized, short-lived tree growing to a height of up to 30 metres (98 feet). It has short-stalked rounded leaves and separate male and female flowers in the form of catkins. The small, rounded fruits are cone-like and the seeds are dispersed by wind and "
+  },
+  {
+    "slug": "hazel",
+    "commonName": "Hazel",
+    "scientificName": "Corylus avellana",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Corylus_avellana.jpg",
+    "source": "https://en.wikipedia.org/wiki/Corylus_avellana",
+    "description": "Corylus avellana, the common hazel, is a species of flowering plant in the birch family Betulaceae. The shrubs usually grow 3–8 metres (10–26 feet) tall. The nut is round, in contrast to the longer filbert nut. Common hazel is native to Europe and Western Asia."
+  },
+  {
+    "slug": "olive",
+    "commonName": "Olive",
+    "scientificName": "Olea europaea",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg",
+    "source": "https://en.wikipedia.org/wiki/Olive",
+    "description": "The olive (botanical name Olea europaea, \"European olive\") is a species of subtropical evergreen tree in the family Oleaceae. Originating in Asia Minor, it is abundant throughout the Mediterranean Basin, with wild subspecies in Africa and western Asia; modern cultivars are traced primarily to the Near East, Aegean Sea, and Strait of Gibraltar. The olive is the type species for its genus, Olea, and lends its name to the Oleaceae plant family, which includes lilac, jasmine, forsythia, and ash. The olive fruit is classed botanically as a drupe, similar in structure and function to the cherry or p"
+  },
+  {
+    "slug": "silver-wattle",
+    "commonName": "Silver Wattle",
+    "scientificName": "Acacia dealbata",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Acacia_dealbata-1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Acacia_dealbata",
+    "description": "Acacia dealbata, commonly known as silver wattle, blue wattle or mimosa, is a species of flowering plant in the legume family, Fabaceae. It is endemic to south-eastern mainland Australia but it can be found as an introduced or invasive species elsewhere. It is a bushy shrub or spreading tree with smooth bark, bluish grey or silvery and glaucous bipinnate leaves, spherical heads of yellow to bright yellow flowers, and straight to slightly curved pods. The Wiradjuri people of New South Wales use the name giigandul for the species."
+  },
+  {
+    "slug": "tamarind",
+    "commonName": "Tamarind",
+    "scientificName": "Tamarindus indica",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tamarindus_indica_pods.JPG",
+    "source": "https://en.wikipedia.org/wiki/Tamarind",
+    "description": "Tamarind (Tamarindus indica) is a leguminous tree bearing edible fruit that is indigenous to tropical Africa and naturalized in Asia. The genus Tamarindus is monotypic, meaning that it contains only this species. It belongs to the family Fabaceae."
+  },
+  {
+    "slug": "moringa",
+    "commonName": "Moringa",
+    "scientificName": "Moringa oleifera",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/DrumstickFlower.jpg",
+    "source": "https://en.wikipedia.org/wiki/Moringa_oleifera",
+    "description": "Moringa oleifera is a short-lived, fast-growing, drought-resistant tree of the family Moringaceae, native to northern India and used extensively in South and Southeast Asia. Common names include moringa, drumstick tree (from the long, slender, triangular seed-pods), horseradish tree (from the taste of the roots, which resembles horseradish), ben tree (for its oil), or malunggay (as known in maritime or archipelagic areas in Asia)."
+  },
+  {
+    "slug": "dragons-blood-tree",
+    "commonName": "Dragon's Blood Tree",
+    "scientificName": "Dracaena cinnabari",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Dragonblood_tree_in_Socotra_2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Dracaena_cinnabari",
+    "description": "Dracaena cinnabari, the Socotra dragon tree or dragon blood tree, is a dragon tree native to the Socotra archipelago, part of Yemen, located in the Arabian Sea. It is named after the blood-like color of the red sap that the trees produce. It is also the national tree of Yemen."
+  },
+  {
+    "slug": "joshua-tree",
+    "commonName": "Joshua Tree",
+    "scientificName": "Yucca brevifolia",
+    "kind": "tree",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Joshua_Tree_01.jpg",
+    "source": "https://en.wikipedia.org/wiki/Yucca_brevifolia",
+    "description": "Yucca brevifolia (also known as the Joshua tree, yucca palm, tree yucca, and palm tree yucca) is a plant species belonging to the genus Yucca. It is tree-like in appearance, which is reflected in its common names."
+  },
+  {
+    "slug": "scots-pine",
+    "commonName": "Scots Pine",
+    "scientificName": "Pinus sylvestris",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Skuleskogen_pine.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pinus_sylvestris",
+    "description": "Pinus sylvestris is a species of tree in the pine family Pinaceae that is native to Eurasia. It is commonly known as the Scots pine in English; it is also known as the Scotch pine in the United States, and occasionally called the Baltic pine or European red pine.  It can readily be identified by its combination of fairly short, blue-green leaves and orange-red bark."
+  },
+  {
+    "slug": "eastern-white-pine",
+    "commonName": "Eastern White Pine",
+    "scientificName": "Pinus strobus",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Pinus_strobus_trees.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pinus_strobus",
+    "description": "Pinus strobus, commonly called the eastern white pine, northern white pine, white pine, Weymouth pine (British), and soft pine is a large pine native to eastern North America. It occurs from Newfoundland, Canada, west through the Great Lakes region to southeastern Manitoba and Minnesota, United States, and south along the Appalachian Mountains and upper Piedmont to northernmost Georgia and very rare in some of the higher elevations in northeastern Alabama. It is considered rare in Indiana."
+  },
+  {
+    "slug": "stone-pine",
+    "commonName": "Stone Pine",
+    "scientificName": "Pinus pinea",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Pinus_pinea_Wellington_Botanic_Gardens.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pinus_pinea",
+    "description": "Pinus pinea, the Italian stone pine or Mediterranean stone pine, is a tree from the pine family, Pinaceae. The tree is native to the Mediterranean region, occurring in Southern Europe and the Levant. The species was introduced into North Africa millennia ago, and is also naturalized in the Canary Islands, South Africa and New South Wales."
+  },
+  {
+    "slug": "norway-spruce",
+    "commonName": "Norway Spruce",
+    "scientificName": "Picea abies",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Kuusk_Keila-Paldiski_rdt_%C3%A4%C3%A4res.jpg",
+    "source": "https://en.wikipedia.org/wiki/Picea_abies",
+    "description": "Picea abies, the Norway spruce, Norway fir or European spruce, is a species of spruce native to Northern, Central and Eastern Europe."
+  },
+  {
+    "slug": "blue-spruce",
+    "commonName": "Blue Spruce",
+    "scientificName": "Picea pungens",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Blue_Spruce_%2815905530369%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Blue_spruce",
+    "description": "The blue spruce (Picea pungens), also commonly known as Colorado spruce or Colorado blue spruce, is a species of spruce tree native to North America in Arizona, Colorado, Idaho, New Mexico, Utah and Wyoming. It is noted for its often strongly glaucous blue-green needles, and has therefore been used as an ornamental tree in many places far beyond its native range."
+  },
+  {
+    "slug": "douglas-fir",
+    "commonName": "Douglas Fir",
+    "scientificName": "Pseudotsuga menziesii",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pseudotsuga_menziesii_4584.JPG",
+    "source": "https://en.wikipedia.org/wiki/Douglas_fir",
+    "description": "The Douglas fir (Pseudotsuga menziesii) is an evergreen conifer species in the pine family, Pinaceae. It is the tallest tree in the Pinaceae family.  It is native to western North America and is also known as Douglas-fir, Douglas spruce, Oregon pine, and Columbian pine. There are three varieties: coast Douglas-fir (P. menziesii var. menziesii), Rocky Mountain Douglas-fir (P. menziesii var. glauca) and Mexican Douglas-fir (P. menziesii var. lindleyana)."
+  },
+  {
+    "slug": "silver-fir",
+    "commonName": "Silver Fir",
+    "scientificName": "Abies alba",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Abies_alba_Wis%C5%82a_1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Abies_alba",
+    "description": "Abies alba, the European silver fir or silver fir, is a fir native to the mountains of Europe, from the Pyrenees north to Normandy, east to the Alps and the Carpathians, Slovakia, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Serbia, and south to Italy, Bulgaria, Kosovo, Albania and northern Greece."
+  },
+  {
+    "slug": "balsam-fir",
+    "commonName": "Balsam Fir",
+    "scientificName": "Abies balsamea",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Abies_balsamea.jpg",
+    "source": "https://en.wikipedia.org/wiki/Abies_balsamea",
+    "description": "Abies balsamea or balsam fir is a North American fir, native to most of eastern and central Canada (Newfoundland west to central Alberta) and the northeastern United States (Minnesota east to Maine, and south in the Appalachian Mountains to West Virginia)."
+  },
+  {
+    "slug": "european-larch",
+    "commonName": "European Larch",
+    "scientificName": "Larix decidua",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/L%27A_de_Bran%2C_%281798_m%29_Val_d%27Anniviers._Europese_larix_%28Larix_decidua%29_01.JPG",
+    "source": "https://en.wikipedia.org/wiki/Larix_decidua",
+    "description": "Larix decidua, the European larch, is a species of larch native to the mountains of central Europe, in the Alps and Carpathian Mountains, with small disjunct lowland populations in northern Poland. Its life span has been confirmed to be close to 1000 years, with ages of around 2000 years likely."
+  },
+  {
+    "slug": "coast-redwood",
+    "commonName": "Coast Redwood",
+    "scientificName": "Sequoia sempervirens",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/US_199_Redwood_Highway.jpg",
+    "source": "https://en.wikipedia.org/wiki/Sequoia_sempervirens",
+    "description": "Sequoia sempervirens () is the sole living species of the genus Sequoia in the cypress family Cupressaceae (formerly treated in Taxodiaceae). Common names include coast redwood, coastal redwood and California redwood. It is an evergreen, long-lived, monoecious tree living 1,200–2,200 years or more. This species includes the tallest living trees on Earth, reaching up to 116.22 m (381.3 ft) in height (without the roots) and up to 8.9 m (29 ft) in diameter at breast height. These trees are also among the longest-living trees on Earth. Before commercial logging and clearing began by the 1850s, thi"
+  },
+  {
+    "slug": "giant-sequoia",
+    "commonName": "Giant Sequoia",
+    "scientificName": "Sequoiadendron giganteum",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Grizzly_Giant_Mariposa_Grove.jpg",
+    "source": "https://en.wikipedia.org/wiki/Sequoiadendron_giganteum",
+    "description": "Sequoiadendron giganteum (also known as the giant sequoia, giant redwood, Sierra redwood or Wellingtonia) is a species of coniferous tree, classified in the family Cupressaceae in the subfamily Sequoioideae. Giant sequoia specimens are the largest trees on Earth. They are native to the groves on the western slopes of the Sierra Nevada mountain range of California but have been introduced, planted, and grown around the world."
+  },
+  {
+    "slug": "dawn-redwood",
+    "commonName": "Dawn Redwood",
+    "scientificName": "Metasequoia glyptostroboides",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Metasequoia_glyptostroboides_in_Forest_park_of_Aichi_Prefecture.jpg",
+    "source": "https://en.wikipedia.org/wiki/Metasequoia_glyptostroboides",
+    "description": "Metasequoia glyptostroboides, the dawn redwood, is a fast-growing, endangered deciduous conifer. It is the sole living species of the genus Metasequoia, one of three genera in the subfamily Sequoioideae of the family Cupressaceae. It now survives in the wild only in wet lower slopes and montane river and stream valleys in the border region of Hubei and Hunan provinces and Chongqing municipality in south-central China, notably in Lichuan county in Hubei. Although the shortest of the redwoods, it can grow to 167 ft (51 m) in height."
+  },
+  {
+    "slug": "bald-cypress",
+    "commonName": "Bald Cypress",
+    "scientificName": "Taxodium distichum",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Taxodium_distichum_NRCSMS01010.jpg",
+    "source": "https://en.wikipedia.org/wiki/Taxodium_distichum",
+    "description": "Taxodium distichum (baldcypress, bald-cypress, bald cypress, swamp cypress; French: cyprès chauve;"
+  },
+  {
+    "slug": "western-red-cedar",
+    "commonName": "Western Red Cedar",
+    "scientificName": "Thuja plicata",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Thuja_plicata_Vancouver.jpg",
+    "source": "https://en.wikipedia.org/wiki/Thuja_plicata",
+    "description": "Thuja plicata is a large evergreen coniferous tree in the family Cupressaceae, native to the Pacific Northwest of North America. Its common name is western redcedar. It is also less commonly called western red cedar, pacific red cedar, giant arborvitae, western arborvitae, just cedar, giant cedar, or shinglewood. It is not a true cedar of the genus Cedrus. T. plicata is the largest species in the genus Thuja, growing up to 70 metres (230 ft) tall and 7 m (23 ft) in diameter. It mostly grows in areas that experience a mild climate with plentiful rainfall, although it is sometimes present in dri"
+  },
+  {
+    "slug": "common-juniper",
+    "commonName": "Common Juniper",
+    "scientificName": "Juniperus communis",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jeneverbes.jpg",
+    "source": "https://en.wikipedia.org/wiki/Juniperus_communis",
+    "description": "Juniperus communis, the common juniper, is a species of small tree or shrub in the cypress family Cupressaceae. An evergreen conifer, it has the largest geographical range of any woody plant, with a Holarctic distribution throughout the cool temperate Northern Hemisphere."
+  },
+  {
+    "slug": "english-yew",
+    "commonName": "English Yew",
+    "scientificName": "Taxus baccata",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Taxus_baccata_MHNT.jpg",
+    "source": "https://en.wikipedia.org/wiki/Taxus_baccata",
+    "description": "Taxus baccata is an Old World species of evergreen tree in the family Taxaceae. It is the tree originally known as yew, though to distinguish it from related species it is sometimes called common yew, European yew, or, in North America, English yew. It is a woodland tree in its native range, including much of Eurasia and Northwest Africa. All parts of the plant except the fleshy aril are poisonous, with toxins that can be absorbed through inhalation, ingestion, and transpiration through the skin."
+  },
+  {
+    "slug": "monkey-puzzle",
+    "commonName": "Monkey Puzzle",
+    "scientificName": "Araucaria araucana",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Araucaria_en_Parque_Nacional_Conguillio.jpg",
+    "source": "https://en.wikipedia.org/wiki/Araucaria_araucana",
+    "description": "Araucaria araucana, commonly called the pewen, monkey-puzzle, pehuen or piñonero or Chile pine, is an evergreen tree belonging to the family Araucariaceae and growing to a height of 30–40 m (98–131 ft) and a trunk diameter of 1–1.5 m (3.3–4.9 ft). Native to central and southern Chile and western Argentina, it is the hardiest species in the conifer genus Araucaria."
+  },
+  {
+    "slug": "norfolk-island-pine",
+    "commonName": "Norfolk Island Pine",
+    "scientificName": "Araucaria heterophylla",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Norfolk-Island-Pines.jpg",
+    "source": "https://en.wikipedia.org/wiki/Araucaria_heterophylla",
+    "description": "Araucaria heterophylla (synonym A. excelsa) is a species of conifer. As its vernacular name Norfolk Island pine (or Norfolk pine) implies, the tree is endemic to Norfolk Island, an external territory of Australia located in the Pacific Ocean between New Zealand and New Caledonia. It is not a true pine, which belong to the genus Pinus in the family Pinaceae, but instead is a member of the genus Araucaria in the family Araucariaceae, which also contains the hoop pine and the monkey-puzzle tree. Members of Araucaria occur across the South Pacific, especially concentrated in New Caledonia (about 7"
+  },
+  {
+    "slug": "wollemi-pine",
+    "commonName": "Wollemi Pine",
+    "scientificName": "Wollemia nobilis",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Wakehurst_Place_woodland_Wollemi_pine.jpg",
+    "source": "https://en.wikipedia.org/wiki/Wollemia",
+    "description": "Wollemia is a genus of coniferous trees in the family Araucariaceae, endemic to Australia. It represents one of only three living genera in the family, alongside Araucaria and Agathis (being more closely related to the latter). The genus has only a single known species, Wollemia nobilis, commonly known as the Wollemi pine (though it is not a true pine) which was discovered in 1994 in a temperate rainforest wilderness area of the Wollemi National Park in New South Wales. It was growing in a remote series of narrow, steep-sided, sandstone gorges 150 km (93 mi) north-west of Sydney. The genus is "
+  },
+  {
+    "slug": "cedar-of-lebanon",
+    "commonName": "Cedar of Lebanon",
+    "scientificName": "Cedrus libani",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/C%C3%A8dre_du_Liban_Barouk_2005.jpg",
+    "source": "https://en.wikipedia.org/wiki/Cedrus_libani",
+    "description": "Cedrus libani, commonly known as cedar of Lebanon, Lebanon cedar, or Lebanese cedar (Arabic: أرز لبناني, romanized: ʾarz lubnāniyy), is a species of large evergreen conifer in the genus Cedrus, which belongs to the pine family and is native to the mountains of the Eastern Mediterranean basin. Known for its longevity, height, and durable wood, it has held profound significance for millennia. The tree features in ancient Mesopotamian literature. It is the national emblem of Lebanon and is widely used as an ornamental tree in parks and gardens.  Historically the ancient Phoenicians used Cedar woo"
+  },
+  {
+    "slug": "italian-cypress",
+    "commonName": "Italian Cypress",
+    "scientificName": "Cupressus sempervirens",
+    "kind": "conifer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg",
+    "source": "https://en.wikipedia.org/wiki/Cupressus_sempervirens",
+    "description": "Cupressus sempervirens (also known as the Mediterranean cypress, Italian cypress, Tuscan cypress, or Persian cypress), is a species of cypress native to the eastern Mediterranean region and Iran. It is widespread throughout the Mediterranean basin and has become endemic in similar dry summer climates due to its ability to survive in both acidic and alkaline soils and withstand drought."
+  },
+  {
+    "slug": "apple",
+    "commonName": "Apple",
+    "scientificName": "Malus domestica",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pink_lady_and_cross_section.jpg",
+    "source": "https://en.wikipedia.org/wiki/Apple",
+    "description": "An apple is the round, edible fruit of an apple tree (Malus spp.). Fruit trees of the orchard or domestic apple (Malus domestica), the most widely grown in the genus, are cultivated worldwide. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found. Apples have been grown for thousands of years in Eurasia before they were introduced to North America by European colonists. Apples have cultural significance in many mythologies (including Norse and Greek) and religions (such as Christianity in Europe)."
+  },
+  {
+    "slug": "pear",
+    "commonName": "Pear",
+    "scientificName": "Pyrus communis",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Pears.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pyrus_communis",
+    "description": "Pyrus communis, the common pear, is a species of pear native to central and eastern Europe, and western Asia."
+  },
+  {
+    "slug": "sweet-cherry",
+    "commonName": "Sweet Cherry",
+    "scientificName": "Prunus avium",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Prunus_avium_fruit.jpg",
+    "source": "https://en.wikipedia.org/wiki/Prunus_avium",
+    "description": "Prunus avium, commonly called wild cherry, sweet cherry or gean, is a species of cherry, a flowering plant in the rose family, Rosaceae. It is native to western Eurasia and naturalized elsewhere. It is an ancestor of P. cerasus (sour cherry)."
+  },
+  {
+    "slug": "peach",
+    "commonName": "Peach",
+    "scientificName": "Prunus persica",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Illustration_Prunus_persica_clean_no_descr.jpg",
+    "source": "https://en.wikipedia.org/wiki/Peach",
+    "description": "The peach (Prunus persica) is a deciduous tree that bears edible juicy fruits with various characteristics. Most are simply called peaches, while the glossy-skinned, non-fuzzy varieties are called nectarines. Though from the same species, they are regarded commercially as different fruits."
+  },
+  {
+    "slug": "apricot",
+    "commonName": "Apricot",
+    "scientificName": "Prunus armeniaca",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Apricots.jpg",
+    "source": "https://en.wikipedia.org/wiki/Prunus_armeniaca",
+    "description": "Prunus armeniaca is the most commonly cultivated apricot species. The native range is somewhat uncertain due to its extensive prehistoric cultivation. Genetic studies indicate Central Asia is the center of origin. It is extensively cultivated in many countries and has escaped into the wild in many places. The specific epithet armeniaca refers to the country of Armenia."
+  },
+  {
+    "slug": "plum",
+    "commonName": "Plum",
+    "scientificName": "Prunus domestica",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Fruits_Prunus_domestica.jpg",
+    "source": "https://en.wikipedia.org/wiki/Prunus_domestica",
+    "description": "Prunus domestica is a species of flowering plant in the family Rosaceae. A deciduous tree, it includes many varieties of the fruit trees known as plums in English, though not all plums belong to this species. The greengages and damsons also belong to subspecies of P. domestica."
+  },
+  {
+    "slug": "almond",
+    "commonName": "Almond",
+    "scientificName": "Prunus dulcis",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg",
+    "source": "https://en.wikipedia.org/wiki/Almond",
+    "description": "The almond (Prunus amygdalus, syn. Prunus dulcis (Mill.) D.A.Webb, nom. illeg. non Prunus dulcis Rouchy) is a species of tree from the genus Prunus. Along with the peach, it is classified in the subgenus Amygdalus, distinguished from the other subgenera by corrugations on the woody shell (endocarp) surrounding the seed."
+  },
+  {
+    "slug": "common-fig",
+    "commonName": "Common Fig",
+    "scientificName": "Ficus carica",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ficus_carica_L%2C_1771.jpg",
+    "source": "https://en.wikipedia.org/wiki/Fig",
+    "description": "The fig is the edible fruit of Ficus carica (the common fig), a species of tree or shrub in the flowering plant family Moraceae, native to the Mediterranean region, and to western and southern Asia. It has been cultivated since ancient times and is now widely grown throughout the world. Ficus carica is the type species of the genus Ficus, which comprises over 800 tropical and subtropical plant species."
+  },
+  {
+    "slug": "pomegranate",
+    "commonName": "Pomegranate",
+    "scientificName": "Punica granatum",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pomegranate_Juice_%282019%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pomegranate",
+    "description": "The pomegranate (Punica granatum) is a fruit-bearing, deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows to between 1.5–5 metres (5–16 ft) tall. Rich in symbolic and mythological associations in many cultures, it originated in the region spanning the Caucasus and the Iranian plateau — including modern-day Iran, Turkmenistan, Afghanistan and Pakistan. Pomegranate was first domesticated by ancient Iranians in the Iranian plateau and nearby regions about 5,000 years ago. It is extensively cultivated for its fruit."
+  },
+  {
+    "slug": "lemon",
+    "commonName": "Lemon",
+    "scientificName": "Citrus limon",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/P1030323.JPG",
+    "source": "https://en.wikipedia.org/wiki/Lemon",
+    "description": "The lemon (Citrus × limon) is a species of small evergreen tree in the Citrus genus of the flowering plant family Rutaceae. A true lemon is a hybrid of the citron and the bitter orange. Its origins are uncertain, but some evidence suggests lemons originated during the 1st millennium BC in what is now northeastern India. Some other citrus fruits are called lemon."
+  },
+  {
+    "slug": "orange",
+    "commonName": "Orange",
+    "scientificName": "Citrus sinensis",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/OrangeBloss_wb.jpg",
+    "source": "https://en.wikipedia.org/wiki/Citrus_%C3%97_sinensis",
+    "description": "Citrus × sinensis (sometimes written Citrus sinensis), the sweet orange, is a broadleaf evergreen hybrid between pomelo (Citrus maxima) and mandarin (Citrus reticulata). Hybrid sweet oranges are commonly cultivated fruits that include Valencia oranges, blood oranges and navel oranges."
+  },
+  {
+    "slug": "lime",
+    "commonName": "Lime",
+    "scientificName": "Citrus aurantiifolia",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Key_lime",
+    "description": "The Key lime, also known as West Indian lime, Mexican lime, or Egyptian lime (Citrus × aurantiifolia) is a type of lime. While it is treated as a species in botanical classification, it originated as a natural hybrid between Citrus micrantha (a wild papeda) and Citrus medica (citron)."
+  },
+  {
+    "slug": "grapefruit",
+    "commonName": "Grapefruit",
+    "scientificName": "Citrus paradisi",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Grapefruits_-_whole-halved-segments.jpg",
+    "source": "https://en.wikipedia.org/wiki/Grapefruit",
+    "description": "The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large, sour to semi-sweet, somewhat bitter fruit. The flesh of the fruit is segmented and varies in color from pale yellow to dark red."
+  },
+  {
+    "slug": "mango",
+    "commonName": "Mango",
+    "scientificName": "Mangifera indica",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg",
+    "source": "https://en.wikipedia.org/wiki/Mangifera_indica",
+    "description": "Mangifera indica, commonly known as the mango after its fruit, is an evergreen species of flowering plant in the family Anacardiaceae. It is a large fruit tree, capable of growing to a height and width of 30 m (100 ft). There are two distinct genetic populations in modern mangoes – the \"Indian type\" and the \"Southeast Asian type\"."
+  },
+  {
+    "slug": "avocado",
+    "commonName": "Avocado",
+    "scientificName": "Persea americana",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Persea_americana_fruit_2.JPG",
+    "source": "https://en.wikipedia.org/wiki/Avocado",
+    "description": "The avocado, alligator pear or avocado pear (Persea americana) is an evergreen tree in the laurel family (Lauraceae). It is native to the Americas, with archaeological evidence of early human avocado use dating back thousands of years across various regions of Central and South America. It was prized for its large and unusually oily fruit. The native range of avocado (Persea americana) extends from Mexico to Peru, encompassing much of Central America and parts of northern and western South America."
+  },
+  {
+    "slug": "banana",
+    "commonName": "Banana",
+    "scientificName": "Musa acuminata",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Musa_acuminata_in_india01.jpg",
+    "source": "https://en.wikipedia.org/wiki/Musa_acuminata",
+    "description": "Musa acuminata is a species of banana native to Southern Asia, its range comprising the Indian subcontinent and Southeast Asia. Many of the modern edible dessert bananas are derived from this species, although some are hybrids with Musa balbisiana. First cultivated by humans around 8000 BCE, it is one of the early examples of domesticated plants."
+  },
+  {
+    "slug": "papaya",
+    "commonName": "Papaya",
+    "scientificName": "Carica papaya",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Carica_papaya_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg",
+    "source": "https://en.wikipedia.org/wiki/Papaya",
+    "description": "The papaya (, US: ) is the plant species Carica papaya, one of the 21 accepted species in the genus Carica of the family Caricaceae."
+  },
+  {
+    "slug": "guava",
+    "commonName": "Guava",
+    "scientificName": "Psidium guajava",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Psidium_guajava_fruit.jpg",
+    "source": "https://en.wikipedia.org/wiki/Psidium_guajava",
+    "description": "Psidium guajava, the common guava, yellow guava, lemon guava, or apple guava is an evergreen shrub or small tree native to South America. It is pollinated by insects. When cultivated, it is pollinated mainly by the common honey bee, Apis mellifera."
+  },
+  {
+    "slug": "lychee",
+    "commonName": "Lychee",
+    "scientificName": "Litchi chinensis",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Litchi_chinensis_fruits.JPG",
+    "source": "https://en.wikipedia.org/wiki/Lychee",
+    "description": "Lychees ( LIE-chee, US also  LEE-chee) are the fruit of the tree Litchi chinensis, the sole member of the genus Litchi, part of the soapberry family, Sapindaceae. They are edible, with a sweet, mildly tart flavor, and have a distinctive floral aroma often described as rose-like."
+  },
+  {
+    "slug": "persimmon",
+    "commonName": "Persimmon",
+    "scientificName": "Diospyros kaki",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kaki_20041002.jpg",
+    "source": "https://en.wikipedia.org/wiki/Diospyros_kaki",
+    "description": "Diospyros kaki, the Oriental persimmon, Chinese persimmon, Japanese persimmon, kaki persimmon, or Fuyu persimmon, is the most widely cultivated species of the genus Diospyros. Although its first botanical description was not published until 1780, D. kaki cultivation in China dates back more than 2000 years."
+  },
+  {
+    "slug": "jackfruit",
+    "commonName": "Jackfruit",
+    "scientificName": "Artocarpus heterophyllus",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/The_jackfruit_is_holding_on_to_the_tree.jpg",
+    "source": "https://en.wikipedia.org/wiki/Jackfruit",
+    "description": "The jackfruit, jakfruit or nangka (Artocarpus heterophyllus) is a species of tree in the fig, mulberry, and breadfruit family (Moraceae)."
+  },
+  {
+    "slug": "durian",
+    "commonName": "Durian",
+    "scientificName": "Durio zibethinus",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Durio_Zibethinus_Van_Nooten.jpg",
+    "source": "https://en.wikipedia.org/wiki/Durio_zibethinus",
+    "description": "Durio zibethinus is the most common tree species in the genus Durio, commonly known as durian and has edible fruits by the same name."
+  },
+  {
+    "slug": "pineapple",
+    "commonName": "Pineapple",
+    "scientificName": "Ananas comosus",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pineapple",
+    "description": "The pineapple (Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae."
+  },
+  {
+    "slug": "blueberry",
+    "commonName": "Blueberry",
+    "scientificName": "Vaccinium corymbosum",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Vaccinium_corymbosum%2801%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum",
+    "description": "Vaccinium corymbosum is a North American species of blueberry that became commonly cultivated as a fresh fruit crop in the 20th century. Dozens of commercial cultivars exist."
+  },
+  {
+    "slug": "cranberry",
+    "commonName": "Cranberry",
+    "scientificName": "Vaccinium macrocarpon",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cranberry_bog.jpg",
+    "source": "https://en.wikipedia.org/wiki/Vaccinium_macrocarpon",
+    "description": "Vaccinium macrocarpon, also called large cranberry, American cranberry and bearberry, is a North American species of cranberry in the subgenus Oxycoccus."
+  },
+  {
+    "slug": "raspberry",
+    "commonName": "Raspberry",
+    "scientificName": "Rubus idaeus",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Fert%C5%91di_k%C3%A1rmin_m%C3%A1lna.JPG",
+    "source": "https://en.wikipedia.org/wiki/Rubus_idaeus",
+    "description": "Rubus idaeus (raspberry, also called red raspberry or occasionally European red raspberry to distinguish it from other raspberry species) is a red-fruited species of Rubus native to Eurasia and commonly cultivated in other temperate regions."
+  },
+  {
+    "slug": "blackberry",
+    "commonName": "Blackberry",
+    "scientificName": "Rubus fruticosus",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Blackberry_%28Rubus_fruticosus%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Rubus_fruticosus",
+    "description": "Rubus fruticosus L. is the ambiguous name of a European blackberry species in the genus Rubus (part of the rose family). The name has been interpreted in several ways:"
+  },
+  {
+    "slug": "strawberry",
+    "commonName": "Strawberry",
+    "scientificName": "Fragaria x ananassa",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Strawberry",
+    "description": "The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid plant cultivated worldwide for its fruit. The genus Fragaria, the strawberries, is in the rose family, Rosaceae. The fruit is appreciated for its aroma, bright red colour, juicy texture, and sweetness. It is eaten either fresh or in prepared foods such as jam, ice cream, and chocolates. Artificial strawberry flavourings and aromas are widely used in commercial products. Botanically, the strawberry is not a berry, but an aggregate accessory fruit. Each apparent 'seed' on the outside of the strawberry is a"
+  },
+  {
+    "slug": "watermelon",
+    "commonName": "Watermelon",
+    "scientificName": "Citrullus lanatus",
+    "kind": "fruit",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+    "source": "https://en.wikipedia.org/wiki/Watermelon",
+    "description": "The watermelon (Citrullus lanatus) is a species of flowering plant in the family Cucurbitaceae, that has a large, edible fruit. It is a scrambling and trailing vine-like plant, and is widely cultivated worldwide, with more than 1,000 varieties."
+  },
+  {
+    "slug": "tomato",
+    "commonName": "Tomato",
+    "scientificName": "Solanum lycopersicum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
+    "source": "https://en.wikipedia.org/wiki/Tomato",
+    "description": "The tomato (US: , UK: ; Solanum lycopersicum) is a plant whose fruit is an edible berry that is eaten as a vegetable. The tomato is a member of the nightshade family that includes tobacco, potato, and chili peppers. It originated from western South America, and may have been domesticated there, in Mexico, or in Central America. The Spanish introduced tomatoes to Eurasia in the Columbian exchange in the 16th century."
+  },
+  {
+    "slug": "potato",
+    "commonName": "Potato",
+    "scientificName": "Solanum tuberosum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg",
+    "source": "https://en.wikipedia.org/wiki/Potato",
+    "description": "The potato () is a starchy tuberous vegetable native to the Americas that is consumed as a staple food in many parts of the world. Potatoes are underground stem tubers of the plant Solanum tuberosum, a perennial in the nightshade family Solanaceae."
+  },
+  {
+    "slug": "eggplant",
+    "commonName": "Eggplant",
+    "scientificName": "Solanum melongena",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Solanum_melongena_24_08_2012_%281%29.JPG",
+    "source": "https://en.wikipedia.org/wiki/Eggplant",
+    "description": "Eggplant (in North American, Australian, and Philippine English), aubergine (in British, Irish, and New Zealand English), brinjal (in Indian, Bangladeshi, Pakistani, Singapore, Malaysian, South African, and Sri Lankan English), or baigan (in Caribbean English) is a plant species in the nightshade family Solanaceae. Solanum melongena is grown worldwide for its edible fruit, typically used as a vegetable in cooking."
+  },
+  {
+    "slug": "carrot",
+    "commonName": "Carrot",
+    "scientificName": "Daucus carota",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Daucus_carota_May_2008-1_edit.jpg",
+    "source": "https://en.wikipedia.org/wiki/Daucus_carota",
+    "description": "Daucus carota, whose common names include wild carrot, European wild carrot, bird's nest, bishop's lace, carrot flower, and Queen Anne's lace (North America), is a flowering plant in the family Apiaceae. It is native to temperate regions of the Old World with a number of regional subspecies, and is naturalised widely elsewhere. Carrots cultivated as a food crop are cultivars of the domesticated subspecies Daucus carota subsp. sativus."
+  },
+  {
+    "slug": "onion",
+    "commonName": "Onion",
+    "scientificName": "Allium cepa",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mixed_onions.jpg",
+    "source": "https://en.wikipedia.org/wiki/Onion",
+    "description": "The onion (Allium cepa L.Tooltip Carl Linnaeus, from Latin cepa), also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium. The shallot is a botanical variety of the onion which was classified as a separate species until 2011. The onion's close relatives include garlic, scallion, leek, and chives."
+  },
+  {
+    "slug": "garlic",
+    "commonName": "Garlic",
+    "scientificName": "Allium sativum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Allium_sativum_Woodwill_1793.jpg",
+    "source": "https://en.wikipedia.org/wiki/Garlic",
+    "description": "Garlic (Allium sativum) is a species of bulbous flowering plants in the genus Allium. Its close relatives include the onion, shallot, leek, chives, Welsh onion, and Chinese onion. Garlic is native to Central Asia, northeastern Iran and the foothills of  Himalayas. It has naturalized in many other parts of the world, including Mediterranean Europe and China. There are two subspecies and hundreds of varieties of garlic."
+  },
+  {
+    "slug": "leek",
+    "commonName": "Leek",
+    "scientificName": "Allium ampeloprasum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/A.ampeloprasum_1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Allium_ampeloprasum",
+    "description": "Allium ampeloprasum is a member of the onion genus Allium. The wild plant is commonly known as wild leek or broadleaf wild leek. Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries."
+  },
+  {
+    "slug": "cabbage",
+    "commonName": "Cabbage",
+    "scientificName": "Brassica oleracea",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Brassica_oleracea0.jpg",
+    "source": "https://en.wikipedia.org/wiki/Brassica_oleracea",
+    "description": "Brassica oleracea, also known as wild cabbage in its uncultivated form, is a plant of the family Brassicaceae."
+  },
+  {
+    "slug": "broccoli",
+    "commonName": "Broccoli",
+    "scientificName": "Brassica oleracea var. italica",
+    "kind": "vegetable",
+    "image": "",
+    "source": "https://en.wikipedia.org/wiki/Brassica_oleracea_var._italica",
+    "description": ""
+  },
+  {
+    "slug": "cauliflower",
+    "commonName": "Cauliflower",
+    "scientificName": "Brassica oleracea var. botrytis",
+    "kind": "vegetable",
+    "image": "",
+    "source": "https://en.wikipedia.org/wiki/Brassica_oleracea_var._botrytis",
+    "description": ""
+  },
+  {
+    "slug": "kale",
+    "commonName": "Kale",
+    "scientificName": "Brassica oleracea var. sabellica",
+    "kind": "vegetable",
+    "image": "",
+    "source": "https://en.wikipedia.org/wiki/Brassica_oleracea_var._sabellica",
+    "description": ""
+  },
+  {
+    "slug": "spinach",
+    "commonName": "Spinach",
+    "scientificName": "Spinacia oleracea",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg",
+    "source": "https://en.wikipedia.org/wiki/Spinach",
+    "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to Central and Western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common vegetable consumed either fresh, cooked or after storage (using preservation techniques like canning, freezing, or dehydration). The taste differs considerably between cooked and raw: the high oxalate content may be reduced by blanching."
+  },
+  {
+    "slug": "lettuce",
+    "commonName": "Lettuce",
+    "scientificName": "Lactuca sativa",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Iceberg_lettuce_in_SB.jpg",
+    "source": "https://en.wikipedia.org/wiki/Lettuce",
+    "description": "Lettuce (Lactuca sativa) is an annual plant of the family Asteraceae mostly grown as a leaf vegetable. The leaves are most often used raw in green salads, although lettuce is also seen in other kinds of food, such as sandwiches, wraps and soups; it can also be grilled. Its stem and seeds are sometimes used; celtuce (asparagus lettuce) is one variety grown for its stems, which are eaten either raw or cooked. In addition to its main use as a leafy green, it has also gathered religious and medicinal significance over centuries of human consumption. Europe and North America originally dominated th"
+  },
+  {
+    "slug": "cucumber",
+    "commonName": "Cucumber",
+    "scientificName": "Cucumis sativus",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/ARS_cucumber.jpg",
+    "source": "https://en.wikipedia.org/wiki/Cucumber",
+    "description": "The cucumber (Cucumis sativus) is a widely-cultivated creeping vine plant in the family Cucurbitaceae that bears cylindrical to spherical fruits, used as culinary vegetables. Considered an annual plant, there are three main types: slicing, pickling, and seedless. "
+  },
+  {
+    "slug": "pumpkin",
+    "commonName": "Pumpkin",
+    "scientificName": "Cucurbita pepo",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cucurbita_pepo_collage_1.png",
+    "source": "https://en.wikipedia.org/wiki/Cucurbita_pepo",
+    "description": "Cucurbita pepo is a cultivated plant of the genus Cucurbita. It yields varieties of winter squash and pumpkin, but the most widespread varieties belong to the subspecies Cucurbita pepo subsp. pepo, called summer squash."
+  },
+  {
+    "slug": "bell-pepper",
+    "commonName": "Bell Pepper",
+    "scientificName": "Capsicum annuum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Capsicum_annuum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-027.jpg",
+    "source": "https://en.wikipedia.org/wiki/Capsicum_annuum",
+    "description": "Capsicum annuum is a flowering plant in the family Solanaceae (nightshades), native to the northern regions of South America and to southwestern North America. The plant produces berries of many colors including red, green, and yellow, often with pungent taste. It is one of the oldest cultivated crops, with domestication dating back to around 6,000 years ago in regions of Mexico. The genus Capsicum has over 30 species but Capsicum annuum is the primary species in its genus, as it has been widely cultivated for human consumption for a substantial amount of time and has spread across the world. "
+  },
+  {
+    "slug": "chili-pepper",
+    "commonName": "Chili Pepper",
+    "scientificName": "Capsicum frutescens",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tabasco_peppers.JPG",
+    "source": "https://en.wikipedia.org/wiki/Capsicum_frutescens",
+    "description": "Capsicum frutescens is a wild chili pepper that has genetic proximity to the cultivated pepper Capsicum chinense.  It is native to Central and South America as well as Mexico. Pepper cultivars of C. frutescens can be annual or short-lived perennial plants."
+  },
+  {
+    "slug": "pea",
+    "commonName": "Pea",
+    "scientificName": "Pisum sativum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Peas_in_pods_-_Studio.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pea",
+    "description": "Pea is a pulse or fodder crop, but the word often refers to the seed or sometimes the pod of this flowering plant species. Peas are eaten as a vegetable."
+  },
+  {
+    "slug": "common-bean",
+    "commonName": "Common Bean",
+    "scientificName": "Phaseolus vulgaris",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Snijboon_peulen_Phaseolus_vulgaris.jpg",
+    "source": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+    "description": "Phaseolus vulgaris, the common bean, is a herbaceous annual plant. Its botanical classification, along with other Phaseolus species, is as a member of the legume family, Fabaceae. It forms a green-leaved vine which produces beans inside of pods."
+  },
+  {
+    "slug": "sweet-corn",
+    "commonName": "Sweet Corn",
+    "scientificName": "Zea mays",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
+    "source": "https://en.wikipedia.org/wiki/Maize",
+    "description": "Maize (; Zea mays), also known as corn, is a tall stout grass that produces cereal grain. The leafy stalk of the plant gives rise to male inflorescences or tassels which produce pollen, and female inflorescences called ears. The ears yield grain, known as kernels or seeds. In modern commercial varieties, these are usually yellow or white; other varieties can be of many colors. Maize was domesticated by indigenous peoples in southern Mexico about 9,000 years ago from wild teosinte. Native Americans planted it alongside beans and squashes in the Three Sisters polyculture. That is, those three ve"
+  },
+  {
+    "slug": "beetroot",
+    "commonName": "Beetroot",
+    "scientificName": "Beta vulgaris",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Beta_vulgaris_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-167.jpg",
+    "source": "https://en.wikipedia.org/wiki/Beta_vulgaris",
+    "description": "Beta vulgaris (beet) is a species of flowering plant in the subfamily Betoideae of the family Amaranthaceae. It is a perennial plant usually growing up to 120 centimetres (4 ft) tall."
+  },
+  {
+    "slug": "radish",
+    "commonName": "Radish",
+    "scientificName": "Raphanus sativus",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg",
+    "source": "https://en.wikipedia.org/wiki/Radish",
+    "description": "The radish (Raphanus sativus or Raphanus raphanistrum subsp. sativus) is a flowering plant in the mustard family, Brassicaceae. Its large taproot is commonly used as a root vegetable, although the entire plant is edible and its leaves are sometimes used as a leaf vegetable. Originally domesticated in Asia, radishes are now grown and consumed globally. The radish is sometimes considered to form a species complex with the wild radish and instead treated as the subspecies Raphanus raphanistrum subsp. sativus."
+  },
+  {
+    "slug": "celery",
+    "commonName": "Celery",
+    "scientificName": "Apium graveolens",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/2023-06-22_Apium_graveolens_%28Wild_Celery%29%2C_Elswick%2C_Northumberland_4.jpg",
+    "source": "https://en.wikipedia.org/wiki/Apium_graveolens",
+    "description": "Apium graveolens, known in English as celery, is an Old World species of flowering plant in the family Apiaceae. It was first described by Carl Linnaeus in 1753."
+  },
+  {
+    "slug": "asparagus",
+    "commonName": "Asparagus",
+    "scientificName": "Asparagus officinalis",
+    "kind": "vegetable",
+    "image": "",
+    "source": "https://en.wikipedia.org/wiki/Asparagus",
+    "description": "Asparagus (Asparagus officinalis) or garden asparagus is a perennial flowering plant species in the genus Asparagus native to Eurasia. Widely cultivated as a vegetable crop, its young shoots are used as a spring vegetable."
+  },
+  {
+    "slug": "sweet-potato",
+    "commonName": "Sweet Potato",
+    "scientificName": "Ipomoea batatas",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ipomoea_batatas_006.JPG",
+    "source": "https://en.wikipedia.org/wiki/Sweet_potato",
+    "description": "The sweet potato or sweetpotato (Ipomoea batatas) is a dicotyledonous plant in the morning glory family, Convolvulaceae. Its sizeable, starchy, sweet-tasting tuberous roots are used as a root vegetable, which is a staple food in parts of the world. Cultivars of the sweet potato have been bred to bear tubers with flesh and skin of various colors. Moreover, the young shoots and leaves are occasionally eaten as greens. The sweet potato and the potato are only distantly related, both being in the order Solanales. Although darker sweet potatoes are often known as yams in parts of North America, the"
+  },
+  {
+    "slug": "okra",
+    "commonName": "Okra",
+    "scientificName": "Abelmoschus esculentus",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Hong_Kong_Okra_Aug_25_2012.JPG",
+    "source": "https://en.wikipedia.org/wiki/Okra",
+    "description": "Okra (US: , UK: ), Abelmoschus esculentus, known in some English-speaking countries as lady's fingers, is a flowering plant in the mallow family native to East Africa. Cultivated in tropical, subtropical, and warm temperate regions around the world for its edible green (red in some cultivars) seed pods, okra is used in the cuisines of many countries."
+  },
+  {
+    "slug": "rhubarb",
+    "commonName": "Rhubarb",
+    "scientificName": "Rheum rhabarbarum",
+    "kind": "vegetable",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Rheum_undulatum_in_Jardin_botanique_de_la_Charme.jpg",
+    "source": "https://en.wikipedia.org/wiki/Rheum_rhabarbarum",
+    "description": "Rheum rhabarbarum is a species of flowering plant in the family Polygonaceae, native to a region stretching from southern Siberia to north and central China. It has been harvested from the wild for centuries for its root, which was harvested for use as a popular medicine in Europe and Asia. It was later cultivated for its root in England and Russia. It is considered to be one of the species involved in the development of culinary rhubarb, for which the scientific name R. rhabarbarum is sometimes (erroneously) used."
+  },
+  {
+    "slug": "basil",
+    "commonName": "Basil",
+    "scientificName": "Ocimum basilicum",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ocimum_basilicum_8zz.jpg",
+    "source": "https://en.wikipedia.org/wiki/Basil",
+    "description": "Basil (Ocimum basilicum), also called great basil, is a culinary herb of the family Lamiaceae (mints). It is a tender plant and is used in cuisines worldwide. In Western cuisine, the generic term \"basil\" refers to the variety also known as Genovese basil or sweet basil. Basil is native to tropical regions from Central Africa to Southeast Asia. In temperate climates basil is treated as an annual plant, but it can be grown as a short-lived perennial or biennial in warmer horticultural zones with tropical or Mediterranean climates."
+  },
+  {
+    "slug": "spearmint",
+    "commonName": "Spearmint",
+    "scientificName": "Mentha spicata",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Minze.jpg",
+    "source": "https://en.wikipedia.org/wiki/Spearmint",
+    "description": "Spearmint (Mentha spicata), also known as garden mint, common mint, lamb mint and mackerel mint, is native to Europe and southern temperate Asia, extending from Ireland in the west to southern China in the east. It is naturalized in many other temperate parts of the world, including northern and southern Africa, North America, and South America. It is used as a flavouring in food and herbal teas. The aromatic oil, called oil of spearmint, is also used as a flavoring and sometimes as a scent."
+  },
+  {
+    "slug": "rosemary",
+    "commonName": "Rosemary",
+    "scientificName": "Salvia rosmarinus",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Rosemary_in_bloom.JPG",
+    "source": "https://en.wikipedia.org/wiki/Rosemary",
+    "description": "Salvia rosmarinus, synonym Rosmarinus officinalis, commonly known as rosemary, is a shrub with fragrant, evergreen, needle-like leaves and purple or sometimes white, pink, or blue flowers. It is a member of the mint family, Lamiaceae. The species is native to the Mediterranean region. It has numerous cultivars, and its leaves are commonly used as a flavoring."
+  },
+  {
+    "slug": "thyme",
+    "commonName": "Thyme",
+    "scientificName": "Thymus vulgaris",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Thymus_vulgaris1.JPG",
+    "source": "https://en.wikipedia.org/wiki/Thymus_vulgaris",
+    "description": "Thymus vulgaris (common thyme, German thyme, garden thyme or just thyme) is a species of flowering plant in the mint family, Lamiaceae."
+  },
+  {
+    "slug": "oregano",
+    "commonName": "Oregano",
+    "scientificName": "Origanum vulgare",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Origanum_vulgare_-_harilik_pune.jpg",
+    "source": "https://en.wikipedia.org/wiki/Oregano",
+    "description": "Oregano (US: , UK: ; Origanum vulgare) is a species of flowering plant in the mint family, Lamiaceae. It was native to the Mediterranean region, but widely naturalised elsewhere in the temperate Northern Hemisphere."
+  },
+  {
+    "slug": "sage",
+    "commonName": "Sage",
+    "scientificName": "Salvia officinalis",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Salvia_officinalis0.jpg",
+    "source": "https://en.wikipedia.org/wiki/Salvia_officinalis",
+    "description": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant. The common name \"sage\" is also used for closely related species and cultivars."
+  },
+  {
+    "slug": "parsley",
+    "commonName": "Parsley",
+    "scientificName": "Petroselinum crispum",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Petroselinum.jpg",
+    "source": "https://en.wikipedia.org/wiki/Parsley",
+    "description": "Parsley, or garden parsley (Petroselinum crispum), is a species of flowering plant in the family Apiaceae that is native to Greece, the Balkans, Algeria and Morocco.  It has been introduced and naturalized in Europe and elsewhere in the world with suitable climates, and is widely cultivated as a herb and a vegetable."
+  },
+  {
+    "slug": "coriander",
+    "commonName": "Coriander",
+    "scientificName": "Coriandrum sativum",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg",
+    "source": "https://en.wikipedia.org/wiki/Coriander",
+    "description": "Coriander (), or Coriandrum sativum, is an annual herb in the family Apiaceae. The leaves are known as cilantro () in the US. Most people perceive the leaves as having a fresh, slightly citrus taste. Due to variations in the gene OR6A2, some people perceive its flavor to be more soaplike or rotten."
+  },
+  {
+    "slug": "dill",
+    "commonName": "Dill",
+    "scientificName": "Anethum graveolens",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Illustration_Anethum_graveolens_clean.jpg",
+    "source": "https://en.wikipedia.org/wiki/Dill",
+    "description": "Dill (Anethum graveolens) is an annual herb in the celery family Apiaceae. Native to North Africa and West Asia, dill is grown widely in Eurasia, where its leaves and seeds are used as a herb or spice for flavouring food."
+  },
+  {
+    "slug": "chives",
+    "commonName": "Chives",
+    "scientificName": "Allium schoenoprasum",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg",
+    "source": "https://en.wikipedia.org/wiki/Chives",
+    "description": "Chives, scientific name Allium schoenoprasum, is a species of flowering plant in the family Amaryllidaceae."
+  },
+  {
+    "slug": "chamomile",
+    "commonName": "Chamomile",
+    "scientificName": "Matricaria chamomilla",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Matricaria_February_2008-1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Matricaria_chamomilla",
+    "description": "Matricaria chamomilla (synonym: Matricaria recutita), commonly known as chamomile (also spelled camomile), German chamomile, Hungarian chamomile (kamilla), wild chamomile, blue chamomile, or scented mayweed, is an annual plant of the composite family Asteraceae. Commonly, the name M. recutita is applied to the herbal product chamomile, although other species are also used as chamomile. The plant is commonly used to make a tea."
+  },
+  {
+    "slug": "ginger",
+    "commonName": "Ginger",
+    "scientificName": "Zingiber officinale",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Koeh-146-no_text.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ginger",
+    "description": "Ginger (Zingiber officinale) is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine. It is an herbaceous perennial that grows annual pseudostems (false stems made of the rolled bases of leaves) about one meter tall, bearing narrow leaf blades. The inflorescences bear flowers having pale yellow petals with purple edges, and arise directly from the rhizome on separate shoots."
+  },
+  {
+    "slug": "turmeric",
+    "commonName": "Turmeric",
+    "scientificName": "Curcuma longa",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Turmeric_inflorescence.jpg",
+    "source": "https://en.wikipedia.org/wiki/Turmeric",
+    "description": "Turmeric (), or Curcuma longa (), is a flowering plant in the ginger family Zingiberaceae. It is a perennial, rhizomatous, herbaceous plant native to the Indian subcontinent and Southeast Asia that requires temperatures between 20 and 30 °C (68 and 86 °F) and high annual rainfall to thrive. Plants are gathered each year for their rhizomes, some for propagation in the following season and some for consumption or dyeing."
+  },
+  {
+    "slug": "lemongrass",
+    "commonName": "Lemongrass",
+    "scientificName": "Cymbopogon citratus",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gardenology.org-IMG_2892_rbgs11jan.jpg",
+    "source": "https://en.wikipedia.org/wiki/Cymbopogon_citratus",
+    "description": "Cymbopogon citratus, commonly known as West Indian lemon grass or simply lemon grass, is a tropical plant native to South Asia and Maritime Southeast Asia and introduced to many tropical regions."
+  },
+  {
+    "slug": "china-rose",
+    "commonName": "China Rose",
+    "scientificName": "Rosa chinensis",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Rosa_chinensis.jpg",
+    "source": "https://en.wikipedia.org/wiki/Rosa_chinensis",
+    "description": "Rosa chinensis (Chinese: 月季; pinyin: yuèjì), known commonly as the China rose, Chinese rose, or Bengal rose, is a member of the genus Rosa native to Southwest China in Guizhou, Hubei, and Sichuan Provinces. The first publication of Rosa chinensis was in 1768 by Nikolaus Joseph von Jacquin in Observationum Botanicarum, 3, p. 7 & plate 55."
+  },
+  {
+    "slug": "sunflower",
+    "commonName": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg",
+    "source": "https://en.wikipedia.org/wiki/Common_sunflower",
+    "description": "The common sunflower (Helianthus annuus) is a large annual forb in the daisy family Asteraceae. The domesticated form of common sunflower is harvested for its edible seeds, which come in two types: oil and confectionary seeds. Oilseed sunflowers are widely grown globally and represent the fourth most used vegetable oil in the world. They also are used widely as bird food or as food for livestock. In contrast, confectionary sunflower seeds are often eaten as a snack food or in baking. There also are horticultural sunflower varieties that are used as plantings in domestic gardens for aesthetics."
+  },
+  {
+    "slug": "tulip",
+    "commonName": "Tulip",
+    "scientificName": "Tulipa gesneriana",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+    "source": "https://en.wikipedia.org/wiki/Tulipa_gesneriana",
+    "description": "Tulipa gesneriana, the Didier's tulip or garden tulip, is a species of plant in the lily family, cultivated as an ornamental in many countries because of its large, showy flowers. This tall, late-blooming species has a single blooming flower and linear or broadly lanceolate leaves. This is a complex hybridized neo-species, and can also be called Tulipa × gesneriana. Most of the cultivars of tulip are derived from Tulipa gesneriana. It has become naturalised in parts of central and southern Europe and scattered locations in North America."
+  },
+  {
+    "slug": "wild-daffodil",
+    "commonName": "Wild Daffodil",
+    "scientificName": "Narcissus pseudonarcissus",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Narcissus_pseudonarcissus_flower_300303.jpg",
+    "source": "https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus",
+    "description": "Narcissus pseudonarcissus, commonly named the wild daffodil or Lent lily (Welsh: Cennin Pedr), is a perennial flowering plant."
+  },
+  {
+    "slug": "common-daisy",
+    "commonName": "Common Daisy",
+    "scientificName": "Bellis perennis",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bellis_perennis_sl1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Bellis_perennis",
+    "description": "Bellis perennis ( BEL-iss pə-REN-iss), the daisy, is a European species of the family Asteraceae, often considered the archetypal species of the name daisy. To distinguish this species from other plants known as daisies, it is sometimes qualified or known as common daisy, lawn daisy or English daisy."
+  },
+  {
+    "slug": "mexican-marigold",
+    "commonName": "Mexican Marigold",
+    "scientificName": "Tagetes erecta",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tagetes_x_erecta1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Tagetes_erecta",
+    "description": "Tagetes erecta, the Aztec marigold, Mexican marigold, big marigold, cempaxochitl or cempasúchil, is a species of flowering plant in the genus Tagetes native to Mexico and Central America. Despite being native to the Americas, it is often called the African marigold. In Mexico, this plant is found in the wild in the states of México, Michoacán, Puebla, Veracruz and Guerrero."
+  },
+  {
+    "slug": "common-poppy",
+    "commonName": "Common Poppy",
+    "scientificName": "Papaver rhoeas",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Papaver_rhoeas_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-101.jpg",
+    "source": "https://en.wikipedia.org/wiki/Papaver_rhoeas",
+    "description": "Papaver rhoeas, with common names including common poppy, corn poppy, corn rose, field poppy, Flanders poppy, red poppy, and Odai, is an annual herbaceous species of flowering plant in the poppy family Papaveraceae. It is native to north Africa and temperate Eurasia and is introduced into temperate areas on all other continents except Antarctica."
+  },
+  {
+    "slug": "english-lavender",
+    "commonName": "English Lavender",
+    "scientificName": "Lavandula angustifolia",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg",
+    "source": "https://en.wikipedia.org/wiki/Lavandula_angustifolia",
+    "description": "Lavandula angustifolia, formerly L. officinalis, is a flowering plant in the family Lamiaceae, native to the Mediterranean basin. Its common names include lavender, true lavender and English lavender (though it is not native to England); also garden lavender, common lavender and narrow-leaved lavender."
+  },
+  {
+    "slug": "madonna-lily",
+    "commonName": "Madonna Lily",
+    "scientificName": "Lilium candidum",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/ShoshanTzachor-2-wiki-Zachi-Evenor.jpg",
+    "source": "https://en.wikipedia.org/wiki/Lilium_candidum",
+    "description": "Lilium candidum, the Madonna lily or white lily, is a plant in the true lily family. It is native to the Balkans and Middle East, and naturalized in other parts of Europe, including France, Italy, and Ukraine, and in North Africa, the Canary Islands, Mexico, and other regions. It has been cultivated since antiquity, for at least 3,000 years, and has great symbolic value since then for many cultures. It is susceptible to several virus diseases common to lilies, and especially to Botrytis fungus.  One technique to avoid problems with viruses is to grow plants from seed instead of bulblets."
+  },
+  {
+    "slug": "bearded-iris",
+    "commonName": "Bearded Iris",
+    "scientificName": "Iris germanica",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Iris_Germanica_2012-2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Iris_%C3%97_germanica",
+    "description": "Iris × germanica is the accepted name for a species of flowering plants in the family Iridaceae commonly known as the bearded iris or the German bearded iris. It is of hybrid origin. Varieties include I. × g. var. florentina."
+  },
+  {
+    "slug": "chinese-peony",
+    "commonName": "Chinese Peony",
+    "scientificName": "Paeonia lactiflora",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Lactiflora1b.UME.jpg",
+    "source": "https://en.wikipedia.org/wiki/Paeonia_lactiflora",
+    "description": "Paeonia lactiflora (Chinese peony, Chinese herbaceous peony, or common garden peony) is a species of herbaceous perennial flowering plant in the family Paeoniaceae, native to central and eastern Asia from eastern Tibet across northern China to eastern Siberia."
+  },
+  {
+    "slug": "florists-chrysanthemum",
+    "commonName": "Florist's Chrysanthemum",
+    "scientificName": "Chrysanthemum morifolium",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Chrysanthemum.JPG",
+    "source": "https://en.wikipedia.org/wiki/Chrysanthemum_%C3%97_morifolium",
+    "description": "Chrysanthemum × morifolium (also known in the US as florist's daisy, fuji mum and hardy garden mum) is a hybrid species of perennial plant in the genus Chrysanthemum of the family Asteraceae."
+  },
+  {
+    "slug": "carnation",
+    "commonName": "Carnation",
+    "scientificName": "Dianthus caryophyllus",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/W_carnation4051.jpg",
+    "source": "https://en.wikipedia.org/wiki/Dianthus_caryophyllus",
+    "description": "Dianthus caryophyllus ( dy-AN-thəs KAIR-ee-ə-FIL-əs), commonly known as carnation or clove pink, is a species of Dianthus native to the Mediterranean region. While its exact natural range is uncertain due to extensive cultivation over the last 2,000 years, wild carnations are most common in the Mediterranean region. Carnations are prized for their wide variety of colors, delicate fringed petals, and fragrance, often described as spicy, clove-like, or reminiscent of a combination of cinnamon and nutmeg, hence the common name \"clove pink\". This aroma has made carnations a popular choice for use "
+  },
+  {
+    "slug": "geranium",
+    "commonName": "Geranium",
+    "scientificName": "Pelargonium hortorum",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pelargonium_flower.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pelargonium_%C3%97_hortorum",
+    "description": "Pelargonium × hortorum, commonly called zonal geranium, or garden geranium, is a nothospecies of Pelargonium most commonly used as an ornamental plant. It is a hybrid between Pelargonium zonale and Pelargonium inquinans. They are the group of Pelargonium cultivars, with leaves marked with a brown annular zone and inflorescence in the form of large balls of tight flowers, usually red, pink, or white. These are the most common geraniums of garden centers and florists, sold in pots for windowsills and balconies or planted in flowerbeds."
+  },
+  {
+    "slug": "snapdragon",
+    "commonName": "Snapdragon",
+    "scientificName": "Antirrhinum majus",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Antirrhinum_majus_BCBG_%2802%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Antirrhinum_majus",
+    "description": "Antirrhinum majus, the common snapdragon (often – especially in horticulture – simply \"snapdragon\"), is a species of flowering plant belonging to the genus Antirrhinum. The plant was placed in the family Plantaginaceae following a revision of its prior classical family, Scrophulariaceae."
+  },
+  {
+    "slug": "common-foxglove",
+    "commonName": "Common Foxglove",
+    "scientificName": "Digitalis purpurea",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Digitalis_purpurea_LC0101.jpg",
+    "source": "https://en.wikipedia.org/wiki/Digitalis_purpurea",
+    "description": "Digitalis purpurea, the foxglove or common foxglove, is a toxic species of flowering plant in the plantain family Plantaginaceae, native to and widespread throughout most of temperate Europe. It has also naturalized in parts of North America, as well as some other temperate regions. The plant is a popular garden subject, with many cultivars available. It is the original source of the heart medicine digoxin (also called digitalis or digitalin). This biennial plant grows as a rosette of leaves in the first year after sowing, before flowering and then dying in the second year (i.e., it is monocar"
+  },
+  {
+    "slug": "bluebell",
+    "commonName": "Bluebell",
+    "scientificName": "Hyacinthoides non-scripta",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Hyacinthoides_non-scripta_%28Common_Bluebell%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Hyacinthoides_non-scripta",
+    "description": "Hyacinthoides non-scripta  (formerly Endymion non-scriptus or Scilla non-scripta) is a bulbous perennial plant found in Atlantic areas from the north-western part of the Iberian Peninsula to the British Isles, and also frequently used as a garden plant. It is known in English as the common bluebell, English bluebell or simply bluebell, a name which is used in Scotland to refer to the harebell, Campanula rotundifolia. In spring, H. non-scripta produces a nodding, one-sided inflorescence of 5–12 tubular, sweet-scented violet–blue flowers, with strongly recurved tepals, and 3–6 long, linear, basa"
+  },
+  {
+    "slug": "saffron-crocus",
+    "commonName": "Saffron Crocus",
+    "scientificName": "Crocus sativus",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Crocus_sativus2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Crocus_sativus",
+    "description": "Crocus sativus, commonly known as saffron crocus or autumn crocus, is a species of flowering plant in the iris family Iridaceae. A cormous autumn-flowering cultivated perennial, unknown in the wild, it is best known for the culinary use of its floral stigmas as the spice saffron. Human cultivation of saffron crocus and the trade and use of saffron have endured for more than 3,500 years and span different cultures, continents, and civilizations."
+  },
+  {
+    "slug": "bird-of-paradise",
+    "commonName": "Bird of Paradise",
+    "scientificName": "Strelitzia reginae",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ave-do-para%C3%ADso%2C_Strelitzia_reginae%2C_em_Bag%C3%A9%2C_Rio_Grande_do_Sul%2C_Brasil_-_55211233712.jpg",
+    "source": "https://en.wikipedia.org/wiki/Strelitzia_reginae",
+    "description": "Strelitzia reginae, commonly known as the crane flower, bird of paradise, or isigude in Nguni, is a species of flowering plant native to the Cape Provinces and KwaZulu-Natal in South Africa. An evergreen perennial, it is widely cultivated for its dramatic flowers. In temperate areas it is a popular houseplant."
+  },
+  {
+    "slug": "wood-forget-me-not",
+    "commonName": "Wood Forget-me-not",
+    "scientificName": "Myosotis sylvatica",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Myosotis_sylvatica_03.jpg",
+    "source": "https://en.wikipedia.org/wiki/Myosotis_sylvatica",
+    "description": "Myosotis sylvatica, the wood forget-me-not or woodland forget-me-not, is a species of flowering plant in the family Boraginaceae, native to Europe. This spring-flowering plant and its cultivars, typically with blue flowers, are the familiar forget-me-nots of gardens."
+  },
+  {
+    "slug": "wild-pansy",
+    "commonName": "Wild Pansy",
+    "scientificName": "Viola tricolor",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Violatricolorarvensis.jpg",
+    "source": "https://en.wikipedia.org/wiki/Viola_tricolor",
+    "description": "Viola tricolor is a common European wild flower, growing as an annual or short-lived perennial. The species is also known as wild pansy, Johnny Jump up (though this name is also applied to similar species such as the yellow pansy), heartsease, heart's ease, heart's delight, tickle-my-fancy, Jack-jump-up-and-kiss-me, come-and-cuddle-me, three faces in a hood, love-in-idleness, and pink of my john."
+  },
+  {
+    "slug": "moth-orchid",
+    "commonName": "Moth Orchid",
+    "scientificName": "Phalaenopsis amabilis",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Phalaenopsis_amabilis_Orchi_198.jpg",
+    "source": "https://en.wikipedia.org/wiki/Phalaenopsis_amabilis",
+    "description": "Phalaenopsis amabilis, commonly known as moon orchid, moth orchid, or mariposa orchid, is a species of flowering plant in the orchid family Orchidaceae. It is widely cultivated as a decorative houseplant. It is an epiphytic or lithophytic herb with long, thick roots, between two and eight thick, fleshy leaves with their bases hiding the stem and nearly flat, white, long-lasting flowers on a branching flowering stem with up to ten flowers on each branch."
+  },
+  {
+    "slug": "lily-of-the-valley",
+    "commonName": "Lily of the Valley",
+    "scientificName": "Convallaria majalis",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Convallaria_majalis_inflorescence_-_Keila.jpg",
+    "source": "https://en.wikipedia.org/wiki/Lily_of_the_valley",
+    "description": "Lily-of-the-valley (Convallaria majalis), also written as lily of the valley, is a woodland flowering plant with sweetly scented, pendent, bell-shaped white flowers borne in sprays in spring. It is native to Europe, Western Asia and Northern Asia."
+  },
+  {
+    "slug": "hydrangea",
+    "commonName": "Hydrangea",
+    "scientificName": "Hydrangea macrophylla",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/%28Natural%29_Hydrangea_macrophylla%2C_Iwafune%2C_Isumi%2C_Chiba%2C_Japan_2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Hydrangea_macrophylla",
+    "description": "Hydrangea macrophylla is a species of flowering plant in the family Hydrangeaceae, native and endemic to Japan. It is a deciduous shrub growing to 3 m (10 ft) tall by 2.5 m (8 ft) or more broad with large heads of pink or blue flowers in summer and autumn. It is currently treated as monotypic, with no subspecies or varieties. Common names include bigleaf hydrangea, and, for particular cultivar groups, the names lacecap hydrangea, mophead hydrangea, and hortensia. It is widely cultivated in many parts of the world in many climates. It is not to be confused with H. aspera 'Macrophylla'."
+  },
+  {
+    "slug": "chinese-hibiscus",
+    "commonName": "Chinese Hibiscus",
+    "scientificName": "Hibiscus rosa-sinensis",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hibiscus_Brilliant.jpg",
+    "source": "https://en.wikipedia.org/wiki/Hibiscus_%C3%97_rosa-sinensis",
+    "description": "Hibiscus × rosa-sinensis (known colloquially as Chinese hibiscus, China rose, Hawaiian hibiscus, rose mallow and shoeblack plant) is a cultigen of tropical hibiscus, a flowering plant in the Hibiscus genus and Hibisceae tribe of the family Malvaceae."
+  },
+  {
+    "slug": "common-holly",
+    "commonName": "Common Holly",
+    "scientificName": "Ilex aquifolium",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ilex-aquifolium_%28Europaeische_Stechpalme-1%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ilex_aquifolium",
+    "description": "Ilex aquifolium, the holly, common holly, English holly, European holly, or occasionally Christmas holly, is a species of flowering plant in the family Aquifoliaceae, native to western and southern Europe, northwest Africa, and southwest Asia. It is regarded as the type species of the genus Ilex, which by association is also called holly. It is an evergreen tree or shrub found, for example, in shady areas of forests of oak and in beech hedges. In the British Isles it is one of very few native hardwood evergreen trees. It has a great capacity to adapt to different conditions and is a pioneer sp"
+  },
+  {
+    "slug": "rhododendron",
+    "commonName": "Rhododendron",
+    "scientificName": "Rhododendron ponticum",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG",
+    "source": "https://en.wikipedia.org/wiki/Rhododendron_ponticum",
+    "description": "Rhododendron ponticum, called common rhododendron or pontic rhododendron, is a species of flowering plant in the heath family Ericaceae. It is native to the Iberian Peninsula in southwest Europe and the Caucasus region in northern West Asia."
+  },
+  {
+    "slug": "common-lilac",
+    "commonName": "Common Lilac",
+    "scientificName": "Syringa vulgaris",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lilac_Flower%26Leaves%2C_SC%2C_Vic%2C_13.10.2007.jpg",
+    "source": "https://en.wikipedia.org/wiki/Syringa_vulgaris",
+    "description": "Syringa vulgaris, the lilac or common lilac, is a species of flowering plant in the olive family, Oleaceae. Native to the Balkan Peninsula, it is widely cultivated for its scented flowers in Europe (particularly the north and west) and North America."
+  },
+  {
+    "slug": "butterfly-bush",
+    "commonName": "Butterfly Bush",
+    "scientificName": "Buddleja davidii",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/BuddlejaDavidiiStrauch.jpg",
+    "source": "https://en.wikipedia.org/wiki/Buddleja_davidii",
+    "description": "Buddleja davidii (spelling variant Buddleia davidii), also called butterfly-bush, orange eye, or summer lilac, is a species of flowering plant in the family Scrophulariaceae, native to most of China except for the far northeast. It is widely used as an ornamental plant, and many named cultivars are in cultivation. The genus was named Buddleja after the English botanist, Reverend Adam Buddle. The species name, davidii, is after the French missionary and explorer in China, Father Armand David, who was the first European to report the shrub. It was found near Yichang by Dr Augustine Henry about 1"
+  },
+  {
+    "slug": "oleander",
+    "commonName": "Oleander",
+    "scientificName": "Nerium oleander",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nerium_oleander_flowers_leaves.jpg",
+    "source": "https://en.wikipedia.org/wiki/Nerium",
+    "description": "Nerium oleander ( NEER-ee-əm), commonly known as oleander, rose laurel, be-still tree or rosebay, is a shrub or small tree cultivated worldwide in temperate and subtropical areas as an ornamental and landscaping plant. It is the only species currently classified in the genus Nerium, belonging to subfamily Apocynoideae of the dogbane family Apocynaceae. It is so widely cultivated that no precise region of origin has been identified, though it is usually associated with the Mediterranean Basin."
+  },
+  {
+    "slug": "deadly-nightshade",
+    "commonName": "Deadly Nightshade",
+    "scientificName": "Atropa belladonna",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Atropa_belladonna_%2816627871072%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Atropa_bella-donna",
+    "description": "Atropa bella-donna, commonly known as deadly nightshade or belladonna, is a toxic perennial herbaceous plant in the nightshade family Solanaceae, which also includes tomatoes, potatoes and eggplant. It is native to Europe and Western Asia, including Turkey, its distribution extending from England in the west to western Ukraine and the Iranian province of Gilan in the east. It is also naturalised or introduced in some parts of Canada, North Africa and the United States."
+  },
+  {
+    "slug": "castor-bean",
+    "commonName": "Castor Bean",
+    "scientificName": "Ricinus communis",
+    "kind": "shrub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ricinus_March_2010-1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ricinus",
+    "description": "Ricinus communis, the castor bean or castor oil plant, is a species of perennial flowering plant in the spurge family, Euphorbiaceae. It is the sole species in the monotypic genus, Ricinus, and subtribe, Ricininae."
+  },
+  {
+    "slug": "hemlock",
+    "commonName": "Hemlock",
+    "scientificName": "Conium maculatum",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Conium.jpg",
+    "source": "https://en.wikipedia.org/wiki/Conium_maculatum",
+    "description": "Conium maculatum, commonly known as hemlock (British English) or poison hemlock (in North America), is a highly poisonous flowering plant  and a nitrophile weed species in the carrot family Apiaceae."
+  },
+  {
+    "slug": "monkshood",
+    "commonName": "Monkshood",
+    "scientificName": "Aconitum napellus",
+    "kind": "flower",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aconitum_napellus_230705.jpg",
+    "source": "https://en.wikipedia.org/wiki/Aconitum_napellus",
+    "description": "Aconitum napellus, monkshood, aconite, Venus' chariot or wolfsbane, is a species of highly toxic flowering plants in the genus Aconitum of the family Ranunculaceae, native and endemic to western and central Europe. A perennial plant, it is herbaceous and grows to 1 m (3 ft 3 in) tall, with hairless stems and leaves. The leaves are rounded, 5–10 cm (2.0–3.9 in) diameter, palmately divided into five to seven deeply lobed segments. The flowers are dark purple to bluish-purple, narrow oblong helmet-shaped, 1–2 cm (0.39–0.79 in) tall. Plants native to Asia and North America formerly listed as A. na"
+  },
+  {
+    "slug": "stinging-nettle",
+    "commonName": "Stinging Nettle",
+    "scientificName": "Urtica dioica",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Fen_nettle_%28Urtica_dioica_ssp._galeopsifolia%29_-_geograph.org.uk_-_5423125.jpg",
+    "source": "https://en.wikipedia.org/wiki/Urtica_dioica",
+    "description": "Urtica dioica, often known as common nettle, burn nettle, stinging nettle, nettle leaf, or just a nettle or stinger, is a herbaceous perennial flowering plant in the family Urticaceae. Originally native to Europe, much of temperate Asia and western North Africa, it is now found worldwide. "
+  },
+  {
+    "slug": "giant-hogweed",
+    "commonName": "Giant Hogweed",
+    "scientificName": "Heracleum mantegazzianum",
+    "kind": "herb",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/0_Heracleum_mantegazzianum%2C_native%2C_Zelenchuksky_District%2C_Karachay-Cherkessia%2C_Caucasus_Mts%2C_Russia_2.jpg",
+    "source": "https://en.wikipedia.org/wiki/Heracleum_mantegazzianum",
+    "description": "Heracleum mantegazzianum, commonly known as giant hogweed, is a monocarpic perennial herbaceous plant in the carrot family Apiaceae. H. mantegazzianum is also known as cartwheel-flower, giant cow parsley, giant cow parsnip, or hogsbane. In New Zealand, it is also sometimes called wild parsnip (not to be confused with Pastinaca sativa) or wild rhubarb."
+  },
+  {
+    "slug": "lady-fern",
+    "commonName": "Lady Fern",
+    "scientificName": "Athyrium filix-femina",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Athyrium_filix-femina0.jpg",
+    "source": "https://en.wikipedia.org/wiki/Athyrium_filix-femina",
+    "description": "Athyrium filix-femina, the lady fern or common lady-fern, is a large, feathery species of fern native to temperate Asia, Europe, North America, and North Africa. It is often abundant (one of the more common ferns) in damp, shady woodland environments and is often grown for decoration."
+  },
+  {
+    "slug": "bracken",
+    "commonName": "Bracken",
+    "scientificName": "Pteridium aquilinum",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Adelaarsvaren_planten_Pteridium_aquilinum.jpg",
+    "source": "https://en.wikipedia.org/wiki/Pteridium_aquilinum",
+    "description": "Pteridium aquilinum, commonly called bracken, brake, pasture brake, common bracken, and also known as eagle fern, is a species of fern occurring in temperate and subtropical regions in both hemispheres. Originally native to Eurasia and North America, the extreme lightness of its spores has led to it achieving a cosmopolitan distribution."
+  },
+  {
+    "slug": "maidenhair-fern",
+    "commonName": "Maidenhair Fern",
+    "scientificName": "Adiantum capillus-veneris",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Adiantum_capillus-veneris_2601.jpg",
+    "source": "https://en.wikipedia.org/wiki/Adiantum_capillus-veneris",
+    "description": "Adiantum capillus-veneris, the maidenhair fern, southern maidenhair fern, black maidenhair fern and venus hair fern, is a species of ferns in the genus Adiantum and the family Pteridaceae with a subcosmopolitan worldwide distribution. It is cultivated as a popular garden fern and houseplant."
+  },
+  {
+    "slug": "boston-fern",
+    "commonName": "Boston Fern",
+    "scientificName": "Nephrolepis exaltata",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Boston_Fern_%282873392811%29.png",
+    "source": "https://en.wikipedia.org/wiki/Nephrolepis_exaltata",
+    "description": "Nephrolepis exaltata, known as the sword fern or  Boston fern, is a species of fern in the family Nephrolepidaceae. It is native to the Americas. This evergreen plant can reach as high as 40–90 centimetres (16–35 in), and in extreme cases up to 1.5 metres (4 ft 11 in). It is also known as the Boston sword fern, wild Boston fern, Boston blue bell fern, tuber ladder fern, or fishbone fern."
+  },
+  {
+    "slug": "harts-tongue-fern",
+    "commonName": "Hart's-tongue Fern",
+    "scientificName": "Asplenium scolopendrium",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Asplenium_scolopendrium.jpg",
+    "source": "https://en.wikipedia.org/wiki/Asplenium_scolopendrium",
+    "description": "Asplenium scolopendrium, commonly known as the hart's-tongue fern, is an evergreen fern in the family Aspleniaceae native to the Northern Hemisphere."
+  },
+  {
+    "slug": "ostrich-fern",
+    "commonName": "Ostrich Fern",
+    "scientificName": "Matteuccia struthiopteris",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Matteuccia_struthiopteris_fiddleheads.jpg",
+    "source": "https://en.wikipedia.org/wiki/Matteuccia",
+    "description": "Matteuccia is a genus of ferns with one species: Matteuccia struthiopteris (common names ostrich fern, fiddlehead fern, or shuttlecock fern). The species epithet struthiopteris comes from Ancient Greek words στρουθίων (strouthíōn) \"ostrich\" and πτερίς (pterís) \"fern\"."
+  },
+  {
+    "slug": "royal-fern",
+    "commonName": "Royal Fern",
+    "scientificName": "Osmunda regalis",
+    "kind": "fern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Osmunda_regalis_Mimizan.jpg",
+    "source": "https://en.wikipedia.org/wiki/Osmunda_regalis",
+    "description": "Osmunda regalis, or royal fern, is a species of deciduous fern, native to Europe, North Africa and West Asia, growing in woodland bogs and on the banks of streams. The species is sometimes known as flowering fern due to the appearance of its fertile fronds."
+  },
+  {
+    "slug": "coconut-palm",
+    "commonName": "Coconut Palm",
+    "scientificName": "Cocos nucifera",
+    "kind": "palm",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg",
+    "source": "https://en.wikipedia.org/wiki/Coconut",
+    "description": "The coconut (Cocos nucifera) is a member of the palm family (Arecaceae) and the only living species of the genus Cocos. The term \"coconut\" (or the archaic \"cocoanut\") can denote the whole coconut palm tree or the large hard fruit. Originally native to the Central Indo-Pacific, they are ubiquitous in coastal tropical regions."
+  },
+  {
+    "slug": "date-palm",
+    "commonName": "Date Palm",
+    "scientificName": "Phoenix dactylifera",
+    "kind": "palm",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Dates005.jpg",
+    "source": "https://en.wikipedia.org/wiki/Date_palm",
+    "description": "Phoenix dactylifera, commonly known as the date palm, is a flowering-plant species in the palm family Arecaceae, native to the region from the Gulf States to India. It is cultivated for its edible sweet fruit called dates. The species is widely cultivated across northern Africa, the Middle East, Australia, South and Southeast Asia, Portugal, Spain, coastal Mediterranean basin, and the desert regions of Southern California. It is naturalised in many tropical and subtropical regions worldwide. P. dactylifera is the type species of genus Phoenix, which contains 12–19 species of wild date palms."
+  },
+  {
+    "slug": "areca-palm",
+    "commonName": "Areca Palm",
+    "scientificName": "Dypsis lutescens",
+    "kind": "palm",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/%E6%95%A3%E5%B0%BE%E8%91%B5Dypsis_lutescens_20210511145013_05.jpg",
+    "source": "https://en.wikipedia.org/wiki/Chrysalidocarpus_lutescens",
+    "description": "Chrysalidocarpus lutescens, also known by its synonym Dypsis lutescens and as golden cane palm, areca palm, yellow palm, butterfly palm, or bamboo palm, is a species of flowering plant in the family Arecaceae, native to Madagascar and naturalized in the Andaman Islands, Thailand, Vietnam, Réunion, El Salvador, Cuba, Puerto Rico, the Canary Islands, southern Florida, Haiti, the Dominican Republic, Jamaica, the Leeward Islands, and the Leeward Antilles. Its native names are rehazo and lafahazo (from Malagasy hazo \"tree\" with reha \"pride\" and lafa \"fibre\", respectively)."
+  },
+  {
+    "slug": "oil-palm",
+    "commonName": "Oil Palm",
+    "scientificName": "Elaeis guineensis",
+    "kind": "palm",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Elaeis_guineensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-056.jpg",
+    "source": "https://en.wikipedia.org/wiki/Elaeis_guineensis",
+    "description": "Elaeis guineensis is a species of palm commonly called oil palm but also sometimes African oil palm or macaw-fat. The first Western person to describe it and bring back seeds was the French naturalist Michel Adanson."
+  },
+  {
+    "slug": "aloe-vera",
+    "commonName": "Aloe Vera",
+    "scientificName": "Aloe vera",
+    "kind": "succulent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aloe_vera_flower_inset.png",
+    "source": "https://en.wikipedia.org/wiki/Aloe_vera",
+    "description": "Aloe vera () is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species in many world regions."
+  },
+  {
+    "slug": "saguaro-cactus",
+    "commonName": "Saguaro Cactus",
+    "scientificName": "Carnegiea gigantea",
+    "kind": "succulent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Saguaro",
+    "description": "The saguaro ( sə-(G)WAR-oh, Spanish: [saˈɣwaɾo]; Carnegiea gigantea) is a tree-like cactus species in the monotypic genus Carnegiea that can grow to be over 12 meters (40 feet) tall. It is native to the Sonoran Desert in Arizona, the Mexican state of Sonora, and the Whipple Mountains and Imperial County areas of California. Saguaro typically grow at elevations ranging from sea level to 4,500 feet (1,400 m), although they may be found at up to 5,000 feet (1,500 m). The saguaro blossom is the state wildflower of Arizona. Its scientific name is given in honor of Andrew Carnegie. In 1933, Saguaro "
+  },
+  {
+    "slug": "prickly-pear",
+    "commonName": "Prickly Pear",
+    "scientificName": "Opuntia ficus-indica",
+    "kind": "succulent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg",
+    "source": "https://en.wikipedia.org/wiki/Opuntia_ficus-indica",
+    "description": "Opuntia ficus-indica, the Indian fig opuntia, fig opuntia, or prickly pear, is a species of cactus that has long been a domesticated crop plant grown in agricultural economies throughout arid and semiarid parts of the world. O. ficus-indica is the most widespread and most commercially important cactus. It is grown primarily as a fruit crop, and also for the vegetable nopales and other uses. Cacti are good crops for dry areas because they efficiently convert water into biomass. O. ficus-indica is the most widespread of the long-domesticated cactuses. Opuntia species hybridize easily, but the wi"
+  },
+  {
+    "slug": "century-plant",
+    "commonName": "Century Plant",
+    "scientificName": "Agave americana",
+    "kind": "succulent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Agave_July_2011-1.jpg",
+    "source": "https://en.wikipedia.org/wiki/Agave_americana",
+    "description": "Agave americana, commonly known as the century plant, maguey, or American aloe, is a flowering plant species belonging to the family Asparagaceae. It is native to Mexico and the United States, specifically Texas. This plant is widely cultivated worldwide for its ornamental value and has become naturalized in various regions, including Southern California, the West Indies, South America, the Mediterranean Basin, Africa, the Canary Islands, India, China, Thailand, New Zealand and Australia."
+  },
+  {
+    "slug": "jade-plant",
+    "commonName": "Jade Plant",
+    "scientificName": "Crassula ovata",
+    "kind": "succulent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Crassula_ovata_700.jpg",
+    "source": "https://en.wikipedia.org/wiki/Crassula_ovata",
+    "description": "Crassula ovata, commonly known as jade plant, lucky plant, money plant or money tree, is a succulent plant with small pink or white flowers that is native to the KwaZulu-Natal and Eastern Cape provinces of South Africa, and Mozambique; it is common as a houseplant worldwide. Much of its popularity stems from the low levels of care needed; the jade plant requires little water and can survive in most indoor conditions. It is sometimes referred to as the money tree; however, Pachira aquatica also has this nickname."
+  },
+  {
+    "slug": "christmas-cactus",
+    "commonName": "Christmas Cactus",
+    "scientificName": "Schlumbergera truncata",
+    "kind": "succulent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Schlumbergera_truncata_%28Exotic_Flora_Plate_20%29.jpg",
+    "source": "https://en.wikipedia.org/wiki/Schlumbergera_truncata",
+    "description": "Schlumbergera truncata, the false Christmas cactus, is a species of plant in the family Cactaceae.  It is endemic to a small area of the coastal mountains of south-eastern Brazil where its natural habitats are subtropical or tropical moist forests. It is the parent or one of the parents of the houseplants called Christmas cactus, Thanksgiving cactus or zygocactus, among other names."
+  },
+  {
+    "slug": "common-echeveria",
+    "commonName": "Common Echeveria",
+    "scientificName": "Echeveria elegans",
+    "kind": "succulent",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "moso-bamboo",
+    "commonName": "Moso Bamboo",
+    "scientificName": "Phyllostachys edulis",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "sugarcane",
+    "commonName": "Sugarcane",
+    "scientificName": "Saccharum officinarum",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "bread-wheat",
+    "commonName": "Bread Wheat",
+    "scientificName": "Triticum aestivum",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "rice",
+    "commonName": "Rice",
+    "scientificName": "Oryza sativa",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "barley",
+    "commonName": "Barley",
+    "scientificName": "Hordeum vulgare",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "oat",
+    "commonName": "Oat",
+    "scientificName": "Avena sativa",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "pampas-grass",
+    "commonName": "Pampas Grass",
+    "scientificName": "Cortaderia selloana",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "common-reed",
+    "commonName": "Common Reed",
+    "scientificName": "Phragmites australis",
+    "kind": "grass",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "grape-vine",
+    "commonName": "Grape Vine",
+    "scientificName": "Vitis vinifera",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "kiwifruit",
+    "commonName": "Kiwifruit",
+    "scientificName": "Actinidia deliciosa",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "common-ivy",
+    "commonName": "Common Ivy",
+    "scientificName": "Hedera helix",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "chinese-wisteria",
+    "commonName": "Chinese Wisteria",
+    "scientificName": "Wisteria sinensis",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "morning-glory",
+    "commonName": "Morning Glory",
+    "scientificName": "Ipomoea purpurea",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "passionfruit",
+    "commonName": "Passionfruit",
+    "scientificName": "Passiflora edulis",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "travellers-joy",
+    "commonName": "Traveller's Joy",
+    "scientificName": "Clematis vitalba",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "common-hop",
+    "commonName": "Common Hop",
+    "scientificName": "Humulus lupulus",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "poison-ivy",
+    "commonName": "Poison Ivy",
+    "scientificName": "Toxicodendron radicans",
+    "kind": "climber",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "sacred-lotus",
+    "commonName": "Sacred Lotus",
+    "scientificName": "Nelumbo nucifera",
+    "kind": "aquatic",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "white-water-lily",
+    "commonName": "White Water Lily",
+    "scientificName": "Nymphaea alba",
+    "kind": "aquatic",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "papyrus",
+    "commonName": "Papyrus",
+    "scientificName": "Cyperus papyrus",
+    "kind": "aquatic",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "swiss-cheese-plant",
+    "commonName": "Swiss Cheese Plant",
+    "scientificName": "Monstera deliciosa",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "golden-pothos",
+    "commonName": "Golden Pothos",
+    "scientificName": "Epipremnum aureum",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "peace-lily",
+    "commonName": "Peace Lily",
+    "scientificName": "Spathiphyllum wallisii",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "spider-plant",
+    "commonName": "Spider Plant",
+    "scientificName": "Chlorophytum comosum",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "rubber-plant",
+    "commonName": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "zz-plant",
+    "commonName": "ZZ Plant",
+    "scientificName": "Zamioculcas zamiifolia",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "fiddle-leaf-fig",
+    "commonName": "Fiddle-leaf Fig",
+    "scientificName": "Ficus lyrata",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "snake-plant",
+    "commonName": "Snake Plant",
+    "scientificName": "Dracaena trifasciata",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "heartleaf-philodendron",
+    "commonName": "Heartleaf Philodendron",
+    "scientificName": "Philodendron hederaceum",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  },
+  {
+    "slug": "weeping-fig",
+    "commonName": "Weeping Fig",
+    "scientificName": "Ficus benjamina",
+    "kind": "houseplant",
+    "image": "",
+    "source": "",
+    "description": ""
+  }
+]

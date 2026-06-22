@@ -1,8 +1,10 @@
 import type { Plant } from "./types";
 
-// Sample species. These move to Supabase later behind the same getPlant() seam.
+// Curated "flagship" species with full, sourced records. These are merged over
+// the generated catalog by slug in lib/plants.ts.
+type Detail = Partial<Plant> & { slug: string };
 
-const englishOak: Plant = {
+const englishOak: Detail = {
   slug: "english-oak",
   commonName: "English Oak",
   scientificName: "Quercus robur",
@@ -170,7 +172,7 @@ const englishOak: Plant = {
   },
 };
 
-const ladyFern: Plant = {
+const ladyFern: Detail = {
   slug: "lady-fern",
   commonName: "Lady Fern",
   scientificName: "Athyrium filix-femina",
@@ -286,7 +288,7 @@ const ladyFern: Plant = {
   },
 };
 
-const dragonBlood: Plant = {
+const dragonBlood: Detail = {
   slug: "dragons-blood-tree",
   commonName: "Dragon's Blood Tree",
   scientificName: "Dracaena cinnabari",
@@ -412,7 +414,7 @@ const dragonBlood: Plant = {
   },
 };
 
-const wollemiPine: Plant = {
+const wollemiPine: Detail = {
   slug: "wollemi-pine",
   commonName: "Wollemi Pine",
   scientificName: "Wollemia nobilis",
@@ -528,4 +530,227 @@ const wollemiPine: Plant = {
   },
 };
 
-export const PLANTS: Plant[] = [englishOak, ladyFern, dragonBlood, wollemiPine];
+const tomato: Detail = {
+  slug: "tomato",
+  kind: "vegetable",
+  rarity: "common",
+  accent: "#ff8f6b",
+  foliage: "#3f9d63",
+  otherNames: ["Love apple"],
+  etymology:
+    'From Spanish tomate, from the Nahuatl tomatl. The species epithet lycopersicum means "wolf peach".',
+  morphology: {
+    height: "Vining to ~3 m; bush types under 1 m",
+    leaves: "Pinnate, 10–25 cm, with serrated, glandular-hairy leaflets",
+    flowers: "Yellow, five-lobed, in small clusters; self-fertile",
+    fruit: "A juicy berry, many-seeded, ripening red (or yellow, orange, purple)",
+  },
+  phenology: { habit: "Tender perennial, usually grown as an annual", flowering: "Summer", fruiting: "Summer–autumn" },
+  distribution: {
+    nativeRange: "Wild ancestor in western South America; domesticated in Mesoamerica",
+    habitat: "Cultivated worldwide; needs warmth and a long season",
+    soil: "Fertile, well-drained, slightly acidic",
+    climate: "Warm; full sun",
+  },
+  lifespan: "One season in cultivation",
+  growthRate: "Fast",
+  ecology: "Pollinated by buzz-pollinating bees; partners with arbuscular mycorrhizal fungi.",
+  conservation: { status: "Not assessed (cultivated crop)", threats: [] },
+  edibility: {
+    status: "caution",
+    summary:
+      "The ripe fruit is a staple food. The rest of the plant — leaves, stems and green unripe " +
+      "fruit — contains the alkaloids tomatine and solanine and should not be eaten in quantity.",
+    parts: [
+      { part: "Ripe fruit", safe: "yes", note: "Eaten raw or cooked; ~95% water." },
+      { part: "Leaves & stems", safe: "no", note: "Contain tomatine/solanine; bitter and mildly toxic." },
+      { part: "Green unripe fruit", safe: "caution", note: "Higher in solanine; usually cooked, not eaten raw in quantity." },
+    ],
+  },
+  uses: [
+    { category: "Culinary", note: "A global staple — sauces, salads, juice, soups and more." },
+    { category: "Economic", note: "One of the most-grown crops on Earth (~190 million tonnes a year)." },
+  ],
+  identification: [
+    "Pinnate, strongly scented leaves",
+    "Yellow five-pointed flowers",
+    "Many-seeded berry fruit",
+    "Glandular hairs on stems and leaves",
+  ],
+  facts: [
+    "Botanically a fruit, but a US Supreme Court ruling (1893) classed it a vegetable for tariffs.",
+    "The Flavr Savr tomato was the first commercially sold genetically modified food.",
+    "A member of the nightshade family, alongside potato and eggplant.",
+  ],
+};
+
+const rhubarb: Detail = {
+  slug: "rhubarb",
+  kind: "vegetable",
+  rarity: "common",
+  accent: "#ff7a8a",
+  foliage: "#3f9d63",
+  otherNames: ["Garden rhubarb", "Pie plant"],
+  etymology:
+    'From Old French rubarbe, via Latin rheubarbarum and Greek rha barbaron — roughly "foreign rhubarb".',
+  morphology: {
+    height: "Leaf clump ~0.6–1 m; flower spike to ~2 m",
+    leaves: "Very large, triangular blades on thick fleshy stalks (petioles)",
+    flowers: "Small greenish-white to red, in tall leafy plumes",
+    fruit: "Small dry winged fruits",
+  },
+  phenology: { habit: "Herbaceous perennial from a crown/rhizome", flowering: "Late spring–summer" },
+  distribution: {
+    nativeRange: "Species from temperate Asia; the culinary plant is a long-cultivated hybrid",
+    habitat: "Cool temperate gardens; needs a cold winter rest",
+    soil: "Rich, moist, free-draining",
+    climate: "Cool temperate",
+  },
+  lifespan: "Perennial; productive for many years",
+  growthRate: "Fast once established",
+  ecology: "Large leaves shade out competitors; the crown stores starch over winter.",
+  conservation: { status: "Not assessed (cultivated crop)", threats: [] },
+  edibility: {
+    status: "caution",
+    summary:
+      "The stalks are a familiar dessert ingredient, but the leaf blades are poisonous — high in " +
+      "oxalic acid and other compounds. Only the stalks should be eaten.",
+    parts: [
+      { part: "Stalks (petioles)", safe: "yes", note: "Tart; cooked with sugar for pies and compotes." },
+      { part: "Leaf blades", safe: "no", note: "Poisonous — oxalic acid and anthrone glycosides; can damage the kidneys." },
+    ],
+  },
+  uses: [
+    { category: "Culinary", note: "Stewed stalks in pies, crumbles, jams and compotes." },
+    { category: "Medicinal", note: "Roots used as a traditional laxative (related species)." },
+  ],
+  identification: [
+    "Huge triangular leaves",
+    "Thick red-to-green fleshy stalks",
+    "Only the stalks are eaten",
+  ],
+  facts: [
+    "During the World Wars, wrong advice to eat the leaves caused poisonings in Britain.",
+    "In medieval Europe its root was costlier than cinnamon or saffron.",
+    "It needs a spell of winter cold to grow well.",
+  ],
+};
+
+const apple: Detail = {
+  slug: "apple",
+  kind: "fruit",
+  rarity: "common",
+  accent: "#ff9bb0",
+  foliage: "#4aa56a",
+  otherNames: ["Orchard apple"],
+  etymology: 'From Old English æppel, once a general word for "fruit".',
+  morphology: {
+    height: "2–4.5 m in cultivation; to ~15 m in the wild",
+    bark: "Grey-brown, becoming scaly; young shoots reddish",
+    leaves: "Simple oval, toothed, hairy beneath",
+    flowers: "Five-petalled pink-fading-to-white blossom in spring",
+    fruit: "A pome, 2.5–12 cm, in many colours and flavours",
+  },
+  phenology: { habit: "Deciduous tree", flowering: "Spring", fruiting: "Late summer–autumn" },
+  distribution: {
+    nativeRange: "Central Asia; wild ancestor Malus sieversii in the Tian Shan mountains",
+    habitat: "Orchards and gardens in temperate regions; needs cross-pollination",
+    soil: "Adaptable, well-drained",
+    climate: "Temperate; wood hardy to about −40 °C",
+  },
+  lifespan: "Decades to over a century",
+  growthRate: "Moderate; varies with rootstock",
+  ecology: "Spring blossom is a key nectar source; pollinated mainly by honey and mason bees.",
+  conservation: { status: "Not assessed (cultivated); wild ancestor is threatened", threats: ["Loss of wild Malus sieversii forests"] },
+  edibility: {
+    status: "edible",
+    summary:
+      "The fruit is one of the world's most popular, eaten fresh or cooked. The seeds contain a " +
+      "trace of cyanogenic amygdalin — harmless in the odd pip, but don't eat them by the cupful.",
+    parts: [
+      { part: "Fruit flesh & skin", safe: "yes", note: "Eaten fresh, juiced, baked or fermented into cider." },
+      { part: "Seeds (pips)", safe: "caution", note: "Contain amygdalin; harmful only in very large, crushed quantities." },
+    ],
+  },
+  uses: [
+    { category: "Culinary", note: "Fresh fruit, juice, cider, sauce, pies and baking." },
+    { category: "Cultural", note: "Deep symbolism across mythology and religion." },
+  ],
+  identification: [
+    "Pink-and-white five-petalled blossom",
+    "Toothed oval leaves, hairy below",
+    "Round pome fruit with a star of seeds inside",
+  ],
+  facts: [
+    "There are more than 7,500 known apple cultivars.",
+    "Most are grafted onto rootstocks that set the tree's final size.",
+    "Its wild ancestor still grows in the forests of Kazakhstan.",
+  ],
+};
+
+const foxglove: Detail = {
+  slug: "common-foxglove",
+  kind: "flower",
+  rarity: "common",
+  accent: "#c98bff",
+  foliage: "#4aa56a",
+  otherNames: ["Foxglove", "Lady's glove"],
+  etymology:
+    'Digitalis from Latin digitus ("finger") — the flowers fit over a fingertip like a thimble; ' +
+    "purpurea for their purple colour.",
+  morphology: {
+    height: "1–2 m flower spike",
+    leaves: "Soft, woolly, grey-green, in a rosette the first year",
+    flowers: "Tall spire of pendent purple tubes, spotted inside",
+    fruit: "Capsules releasing tiny, dust-like seeds",
+  },
+  phenology: { habit: "Biennial — rosette one year, flowers the next, then dies", flowering: "Early summer" },
+  distribution: {
+    nativeRange: "Western Europe and North Africa",
+    habitat: "Woodland clearings, heath and disturbed acid ground",
+    soil: "Acidic, humus-rich",
+    climate: "Cool temperate; partial shade",
+  },
+  lifespan: "Biennial (flowers once, then dies)",
+  growthRate: "Moderate",
+  ecology: "A favourite of long-tongued bumblebees, which climb inside the tubular flowers.",
+  conservation: { status: "Least Concern", source: "IUCN Red List", threats: [] },
+  edibility: {
+    status: "toxic",
+    summary:
+      "Every part is highly poisonous. It contains cardiac glycosides (digitoxin) that disrupt the " +
+      "heart — yet, carefully purified, the same chemistry gave medicine the heart drug digoxin.",
+    parts: [
+      { part: "All parts", safe: "no", note: "Highly toxic; can cause nausea, an irregular pulse, and cardiac arrest." },
+    ],
+  },
+  uses: [
+    { category: "Medicinal", note: "Source of digoxin/digitalis heart medication — only as a purified drug." },
+    { category: "Ornamental", note: "A classic cottage-garden spire, in many colours." },
+  ],
+  identification: [
+    "Tall one-sided spike of tubular flowers",
+    "Throats heavily spotted inside",
+    "Soft, woolly basal leaves",
+    "First-year rosette, second-year spike",
+  ],
+  lookAlikes: [
+    { name: "Comfrey (Symphytum)", distinguish: "Comfrey has smaller, bell-like flowers and no spotted tube." },
+  ],
+  facts: [
+    "William Withering described its use for heart dropsy in 1785.",
+    "Deadly to eat, yet the foundation of a life-saving heart drug.",
+    "Seeds need light to germinate, so it favours freshly cleared ground.",
+  ],
+};
+
+export const FLAGSHIP_DETAILS: Detail[] = [
+  englishOak,
+  ladyFern,
+  dragonBlood,
+  wollemiPine,
+  tomato,
+  rhubarb,
+  apple,
+  foxglove,
+];

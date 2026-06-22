@@ -4,7 +4,7 @@ import type { Branch, Plant } from "@/data/types";
 // field (so the UI can show the lock) but lose their value. Combined with the
 // paywall on Pro species, locked content is never sent to non-Pro clients.
 export function gatePlant(plant: Plant, isPro: boolean): Plant {
-  if (isPro) return plant;
+  if (isPro || !plant.structure) return plant;
 
   const redact = (b: Branch): Branch => ({
     ...b,
