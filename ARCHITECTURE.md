@@ -128,9 +128,11 @@ src/
 
 ## 8. Roadmap
 
-- Phase 1 (current): data model, data-layer seam, sample species rendered as glowing trees,
-  landing grid. No backend.
-- Phase 2: Supabase schema and RLS, magic-link auth, species migrated to the database, full-text
-  search.
-- Phase 3: Stripe Pro upgrade, Pro-only fields and species, bookmarks.
-- Phase 4: book/diary mode, reading progress, shareable cards, optional WebGL hero.
+- Phase 1 (done): data model, data-layer seam, the reading experience (garden, book spreads,
+  leaf anatomy), real attributed imagery, edibility pages.
+- Phase 2 (done): Supabase magic-link auth, `profiles` + RLS, server-resolved tier, and
+  server-side Pro gating (paywall for rare species; Pro facts redacted before reaching the client).
+  Falls back gracefully when Supabase is unconfigured.
+- Phase 3: Stripe Pro upgrade (replacing the demo toggle), bookmarks, migrate species to the
+  database with RLS, full-text search.
+- Phase 4: diary mode, reading progress, shareable cards.

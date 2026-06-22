@@ -23,6 +23,24 @@ pnpm build    # production build
 pnpm lint
 ```
 
+The app runs without a backend — auth-gated features simply stay locked until
+Supabase is configured.
+
+## Auth & Pro (Supabase)
+
+1. Create a Supabase project.
+2. Copy `.env.example` to `.env.local` and fill in `NEXT_PUBLIC_SUPABASE_URL`
+   and `NEXT_PUBLIC_SUPABASE_ANON_KEY` (Project Settings → API).
+3. Run `supabase/migrations/0001_init.sql` in the SQL editor — it creates the
+   `profiles` table, its RLS policies, and the signup trigger.
+4. Add `http://localhost:3000/auth/callback` to the project's redirect URLs.
+5. Optional: set `NEXT_PUBLIC_ENABLE_DEMO_PRO=true` to toggle Pro from the
+   account page without payment (off in production; replaced by Stripe).
+
+Sign-in is passwordless (magic link). Pro access is resolved server-side from
+`profiles.tier`; rare/endangered species and Pro-only facts are gated on the
+server, so locked content is never sent to the browser.
+
 ## Structure
 
 ```
