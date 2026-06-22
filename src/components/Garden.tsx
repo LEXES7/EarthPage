@@ -71,26 +71,44 @@ export default function Garden({ cards }: { cards: PlantCard[] }) {
         </div>
       </div>
 
-      <p className="mt-5 text-xs text-white/40">
-        {filtered.length} {filtered.length === 1 ? "species" : "species"}
-      </p>
+      <p className="mt-5 text-xs text-white/40">{filtered.length} species</p>
 
-      <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {visible.map((c) => (
-          <Card key={c.slug} card={c} />
-        ))}
-      </div>
-
-      {shown < filtered.length && (
-        <div className="mt-10 text-center">
+      {filtered.length === 0 ? (
+        <div className="mt-12 rounded-2xl border border-white/10 bg-white/[0.02] p-10 text-center">
+          <p className="font-serif text-lg text-white/80">No species match your search.</p>
+          <p className="mt-1 text-sm text-white/45">Try another name, or browse a different category.</p>
           <button
             type="button"
-            onClick={() => setShown((s) => s + PAGE)}
-            className="rounded-full border border-white/15 px-6 py-3 text-sm text-white/70 transition hover:text-white"
+            onClick={() => {
+              setQuery("");
+              setKind("all");
+              setShown(PAGE);
+            }}
+            className="mt-5 rounded-full border border-white/15 px-5 py-2 text-sm text-white/70 transition hover:text-white"
           >
-            Load more
+            Clear filters
           </button>
         </div>
+      ) : (
+        <>
+          <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {visible.map((c) => (
+              <Card key={c.slug} card={c} />
+            ))}
+          </div>
+
+          {shown < filtered.length && (
+            <div className="mt-10 text-center">
+              <button
+                type="button"
+                onClick={() => setShown((s) => s + PAGE)}
+                className="rounded-full border border-white/15 px-6 py-3 text-sm text-white/70 transition hover:text-white"
+              >
+                Load more
+              </button>
+            </div>
+          )}
+        </>
       )}
     </section>
   );
