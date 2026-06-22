@@ -10,42 +10,301 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-fraunces);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  /* faint nebula behind the night garden */
   background-image:
     radial-gradient(900px 600px at 70% -10%, rgba(124, 255, 178, 0.07), transparent 60%),
     radial-gradient(700px 500px at 10% 110%, rgba(143, 227, 255, 0.06), transparent 60%);
   background-attachment: fixed;
 }
 
-/* Leaves breathe like stars: glow ↔ dim on staggered cycles. */
-@keyframes leaf-breathe {
+/* Leaf shapes scale about their own centre. */
+.leaf {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* One-time bloom as each leaf appears. Scales to the per-leaf --ls so the CSS
+   transform doesn't clobber the leaf's intended size. */
+@keyframes bloom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(var(--ls, 1));
+  }
+}
+.bloom {
+  animation: bloom 0.6s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+
+/* Continuous glow ↔ dim, layered after the bloom finishes. */
+@keyframes breathe {
   0%,
   100% {
-    opacity: 0.45;
-    transform: scale(0.92);
+    filter: brightness(0.85);
+    opacity: 0.8;
+  }
+  50% {
+    filter: brightness(1.35);
+    opacity: 1;
+  }
+}
+.leaf-breathe {
+  animation:
+    bloom 0.6s cubic-bezier(0.2, 0.9, 0.3, 1) both,
+    breathe 4.6s ease-in-out infinite 0.6s;
+}
+
+@keyframes breathe-soft {
+  0%,
+  100% {
+    opacity: 0.5;
   }
   50% {
     opacity: 1;
-    transform: scale(1.08);
   }
 }
-
-.leaf-star {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: leaf-breathe 4.2s ease-in-out infinite;
-  will-change: opacity, transform;
+.leaf-breathe-soft {
+  animation: breathe-soft 6s ease-in-out infinite;
 }
 
-/* Accessibility & battery: hold still if the user prefers reduced motion. */
+.fact-active {
+  filter: brightness(1.6) drop-shadow(0 0 10px var(--accent));
+}
+
+/* Branches fade up from the base as the plant grows in. */
+@keyframes limb-grow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.limb {
+  animation: limb-grow 0.5s ease-out both;
+}
+
+/* Whole plant rises once on mount. */
+@keyframes rise {
+  from {
+    transform: translateY(40px) scaleY(0.86);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+  }
+}
+.rise {
+  animation: rise 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Gentle, continuous sway. */
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-0.7deg);
+  }
+  50% {
+    transform: rotate(0.7deg);
+  }
+}
+.sway {
+  animation: sway 8s ease-in-out infinite;
+}
+
+/* Spores drift upward and fade. */
+@keyframes drift {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-160px);
+    opacity: 0;
+  }
+}
+.spore {
+  transform-box: fill-box;
+  animation: drift linear infinite;
+  will-change: transform, opacity;
+}
+
+.leaf-card-glyph {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: breathe 5s ease-in-out infinite;
+}
+
+/* ── Flip book ───────────────────────────────────────────── */
+.flip-scene {
+  perspective: 2200px;
+}
+.flip-book {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 940px;
+  aspect-ratio: 3 / 2;
+}
+.flip-base {
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  background: #090d14;
+  box-shadow:
+    0 40px 80px -30px rgba(0, 0, 0, 0.8),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+.flip-base::after {
+  content: "";
+  position: absolute;
+  inset: 0 49.5% 0 49.5%;
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.55), transparent);
+}
+.flip-sheet {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transition: transform 0.85s cubic-bezier(0.3, 0, 0.2, 1);
+}
+.flip-sheet[data-flipped="true"] {
+  transform: rotateY(-180deg);
+}
+.flip-face {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-front {
+  border-radius: 0 14px 14px 0;
+}
+.flip-back {
+  transform: rotateY(180deg);
+  border-radius: 14px 0 0 14px;
+}
+.book-page {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  padding: 1.75rem;
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgba(255, 255, 255, 0.03), transparent 60%),
+    #0b0f17;
+}
+.book-page-right {
+  box-shadow: inset 26px 0 44px -30px rgba(0, 0, 0, 0.95);
+}
+.book-page-left {
+  box-shadow: inset -26px 0 44px -30px rgba(0, 0, 0, 0.95);
+}
+
+/* Leaf-anatomy popup */
+@keyframes anat-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes anat-pop {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.anat-backdrop {
+  background: rgba(2, 4, 8, 0.72);
+  backdrop-filter: blur(8px);
+  animation: anat-fade 0.25s ease both;
+}
+.anat-panel {
+  animation: anat-pop 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Veins draw themselves on. */
+@keyframes vein-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.vein {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: vein-draw 0.9s ease forwards;
+}
+
+/* Cross-section layers and legend slide in sequentially. */
+@keyframes layer-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.layer {
+  transform-box: view-box;
+  animation: layer-in 0.5s ease both;
+}
+.layer-item {
+  animation: layer-in 0.5s ease both;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .leaf-star {
+  .bloom,
+  .leaf-breathe,
+  .leaf-breathe-soft,
+  .leaf-card-glyph,
+  .limb,
+  .rise,
+  .sway,
+  .spore,
+  .anat-backdrop,
+  .anat-panel,
+  .layer,
+  .layer-item {
     animation: none;
-    opacity: 0.9;
+  }
+  .rise {
+    transform: none;
+    opacity: 1;
+  }
+  .flip-sheet {
+    transition: none;
+  }
+  .vein {
+    stroke-dashoffset: 0;
+    animation: none;
+  }
+  .spore {
+    opacity: 0.5;
   }
 }

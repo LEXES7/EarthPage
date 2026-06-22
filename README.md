@@ -1,8 +1,9 @@
 # EarthPages
 
-An interactive reference for trees and plants. Each page is laid out from the organism's own
-structure — trunk, branches, and leaves — and every leaf carries a fact. A free tier covers a
-curated set of species; a Pro tier will unlock the full database.
+A reference for trees and plants, presented as a book. Each species opens as a two-page spread —
+a cinematic portrait beside its field notes and leaves. Open a leaf to explore its anatomy: the
+venation skeleton and a layered cross-section. Common species are free; rare and endangered
+species unlock with Pro.
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the design and reasoning.
 
@@ -25,16 +26,25 @@ pnpm lint
 ## Structure
 
 ```
+public/plants/             licensed species portraits (<slug>.jpg)
 src/
   app/
-    page.tsx                 landing grid of species
-    plant/[slug]/page.tsx    single plant rendered from its structure
-  components/tree/           SVG branches, DOM leaves, glow
-  data/                      data model and sample species
-  lib/                       data-layer seam (static content now, Supabase later)
+    page.tsx                 the garden — image grid of species
+    plant/[slug]/page.tsx    the book spread for one species
+  components/
+    PlantBook.tsx            two-page spread + leaf cards
+    leaf/                    anatomy popup + leaf shapes
+  data/                      data model and species
+  lib/                       data-layer seam (static now, Supabase later)
 ```
+
+## Imagery
+
+Species photos are from Wikimedia Commons under Creative Commons licences; each is credited on its
+page (author + licence, linking to the source).
 
 ## Status
 
-Phase 1: data model, sample species, and the rendering experience. No backend yet.
-Roadmap in [ARCHITECTURE.md](./ARCHITECTURE.md#8-roadmap).
+The reading experience is complete: garden, book spreads, rarity-based Pro locks, and the leaf
+anatomy view. Backend (auth, database, payments) is next — see
+[ARCHITECTURE.md](./ARCHITECTURE.md#8-roadmap).

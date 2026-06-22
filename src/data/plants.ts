@@ -6,8 +6,24 @@ const englishOak: Plant = {
   slug: "english-oak",
   commonName: "English Oak",
   scientificName: "Quercus robur",
-  tier: "free",
-  accent: "#7CFFB2", // emerald glow
+  rarity: "common",
+  accent: "#9bffc4",
+  foliage: "#3f9d63",
+  bark: "#5a4632",
+  leafStyle: "lobed",
+  image: "/plants/english-oak.jpg",
+  credit: { author: "Llez", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Quercus_robur_002.JPG" },
+  edibility: {
+    status: "caution",
+    summary:
+      "Acorns are mildly toxic raw due to tannins, but are edible once shelled and leached in " +
+      "water. Foliage and raw acorns are toxic to horses and cattle in quantity.",
+    parts: [
+      { part: "Acorns (leached)", safe: "yes", note: "Repeated rinsing removes bitter tannins; then ground into flour." },
+      { part: "Acorns (raw)", safe: "caution", note: "Bitter and astringent; tannins upset the stomach." },
+      { part: "Leaves & bark", safe: "no", note: "Not eaten; high tannin content, toxic to livestock in bulk." },
+    ],
+  },
   taxonomy: { family: "Fagaceae", genus: "Quercus", species: "Q. robur" },
   summary:
     "A long-lived deciduous tree native to Europe, the English oak supports more " +
@@ -96,8 +112,23 @@ const ladyFern: Plant = {
   slug: "lady-fern",
   commonName: "Lady Fern",
   scientificName: "Athyrium filix-femina",
-  tier: "free",
-  accent: "#8FE3FF", // cool cyan glow
+  rarity: "uncommon",
+  accent: "#aef3ff",
+  foliage: "#49b38f",
+  bark: "#3f6d52",
+  leafStyle: "frond",
+  image: "/plants/lady-fern.jpg",
+  credit: { author: "MPF", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Athyrium_filix-femina0.jpg" },
+  edibility: {
+    status: "toxic",
+    summary:
+      "Best treated as not edible. Like many ferns it contains thiaminase and trace carcinogenic " +
+      "compounds; young fiddleheads have been eaten historically but are not recommended.",
+    parts: [
+      { part: "Fronds", safe: "no", note: "Mature fronds contain thiaminase, which destroys vitamin B1." },
+      { part: "Fiddleheads", safe: "caution", note: "Occasionally eaten cooked, but safety is not established." },
+    ],
+  },
   taxonomy: { family: "Athyriaceae", genus: "Athyrium", species: "A. filix-femina" },
   summary:
     "A delicate, feathery fern of damp woodlands, reproducing by spores rather than seeds.",
@@ -134,4 +165,124 @@ const ladyFern: Plant = {
   },
 };
 
-export const PLANTS: Plant[] = [englishOak, ladyFern];
+const dragonBlood: Plant = {
+  slug: "dragons-blood-tree",
+  commonName: "Dragon's Blood Tree",
+  scientificName: "Dracaena cinnabari",
+  rarity: "endangered",
+  accent: "#ff9d7a",
+  foliage: "#5fa86a",
+  bark: "#6b4a3a",
+  leafStyle: "needle",
+  image: "/plants/dragons-blood-tree.jpg",
+  credit: { author: "Boris Khvostichenko", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Socotra_dragon_tree.JPG" },
+  edibility: {
+    status: "inedible",
+    summary:
+      "Not a food plant. Its famous red resin is used as a dye, varnish and traditional medicine, " +
+      "not as an ingredient.",
+    parts: [
+      { part: "Resin", safe: "no", note: "Used topically and as dye/medicine; not eaten." },
+      { part: "Leaves", safe: "no", note: "Tough, fibrous; no culinary use." },
+    ],
+  },
+  taxonomy: { family: "Asparagaceae", genus: "Dracaena", species: "D. cinnabari" },
+  summary:
+    "Endemic to Socotra, this umbrella-crowned tree bleeds a deep red resin once prized as " +
+    "dragon's blood. Slow growth and a drying climate now threaten it.",
+  structure: {
+    trunk: {
+      id: "trunk",
+      angle: 0,
+      length: 0.24,
+      leaves: [],
+      children: [
+        {
+          id: "d-l",
+          angle: -42,
+          length: 0.18,
+          leaves: [{ id: "l-resin", field: "Resin", value: "Red sap, 'dragon's blood', used in dye and medicine.", tier: "pro" }],
+          children: [
+            { id: "d-l1", angle: -30, length: 0.13, leaves: [{ id: "l-endemic", field: "Range", value: "Found only on Socotra, Yemen.", tier: "pro" }], children: [] },
+            { id: "d-l2", angle: 20, length: 0.12, leaves: [], children: [] },
+          ],
+        },
+        {
+          id: "d-m",
+          angle: 2,
+          length: 0.2,
+          leaves: [{ id: "l-crown", field: "Crown", value: "Dense upturned umbrella that funnels mist to the roots.", tier: "pro" }],
+          children: [
+            { id: "d-m1", angle: -16, length: 0.13, leaves: [{ id: "l-status", field: "Status", value: "Vulnerable; regeneration is failing as Socotra dries.", tier: "pro" }], children: [] },
+          ],
+        },
+        {
+          id: "d-r",
+          angle: 40,
+          length: 0.18,
+          leaves: [{ id: "l-growth", field: "Growth", value: "Extremely slow; ages by branching events, not rings.", tier: "pro" }],
+          children: [
+            { id: "d-r1", angle: 28, length: 0.13, leaves: [], children: [] },
+          ],
+        },
+      ],
+    },
+  },
+};
+
+const wollemiPine: Plant = {
+  slug: "wollemi-pine",
+  commonName: "Wollemi Pine",
+  scientificName: "Wollemia nobilis",
+  rarity: "rare",
+  accent: "#9bf0c0",
+  foliage: "#2f7d57",
+  bark: "#4a3f33",
+  leafStyle: "needle",
+  image: "/plants/wollemi-pine.jpg",
+  credit: { author: "Amanda Slater", license: "CC BY-SA 2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Wollemi_Pine.jpg" },
+  edibility: {
+    status: "inedible",
+    summary:
+      "An ornamental and conservation conifer with no food use. As a protected, critically " +
+      "endangered species it must not be foraged.",
+    parts: [
+      { part: "Foliage", safe: "no", note: "Not edible; grown ornamentally and for conservation." },
+      { part: "Cones / seeds", safe: "no", note: "Not used as food; the wild population is legally protected." },
+    ],
+  },
+  taxonomy: { family: "Araucariaceae", genus: "Wollemia", species: "W. nobilis" },
+  summary:
+    "A 'living fossil' conifer thought extinct until 1994, when fewer than 100 were found in a " +
+    "single Australian gorge. Its location is kept secret.",
+  structure: {
+    trunk: {
+      id: "trunk",
+      angle: 0,
+      length: 0.34,
+      leaves: [{ id: "l-fossil", field: "Lineage", value: "A relict lineage dating back ~90 million years.", tier: "pro" }],
+      children: [
+        {
+          id: "w-l",
+          angle: -30,
+          length: 0.2,
+          leaves: [{ id: "l-discover", field: "Discovery", value: "Found in 1994 in Wollemi National Park, Australia.", tier: "pro" }],
+          children: [
+            { id: "w-l1", angle: -22, length: 0.14, leaves: [{ id: "l-count", field: "Population", value: "Fewer than 100 mature trees in the wild.", tier: "pro" }], children: [] },
+          ],
+        },
+        {
+          id: "w-r",
+          angle: 30,
+          length: 0.2,
+          leaves: [{ id: "l-bark2", field: "Bark", value: "Distinctive bubbly bark, likened to chocolate.", tier: "pro" }],
+          children: [
+            { id: "w-r1", angle: 24, length: 0.14, leaves: [{ id: "l-secret", field: "Protection", value: "Exact wild location is a guarded secret.", tier: "pro" }], children: [] },
+          ],
+        },
+      ],
+    },
+  },
+};
+
+export const PLANTS: Plant[] = [englishOak, ladyFern, dragonBlood, wollemiPine];

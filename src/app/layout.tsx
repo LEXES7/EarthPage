@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,11 +12,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+});
+
 export const metadata: Metadata = {
-  title: "EarthPages — a living encyclopedia of trees & plants",
+  metadataBase: new URL("https://earthpages.app"),
+  title: "EarthPages — a living book of trees & plants",
   description:
-    "Explore trees and plants where each page is shaped like the organism itself — " +
-    "branches and leaves glow like stars, and every leaf holds a fact.",
+    "A living book of trees and plants. Study each species' portrait, read its field notes, " +
+    "and open a leaf to explore its anatomy. Rare species unlock with Pro.",
 };
 
 export default function RootLayout({
@@ -27,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

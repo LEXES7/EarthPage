@@ -1,20 +1,24 @@
 # EarthPages — Architecture
 
-An interactive reference for trees and plants. Each page is laid out from the organism's own
-structure: trunk, branches, and leaves. Leaves carry individual facts and glow on staggered
-cycles. A free tier covers a curated set of species; a Pro tier unlocks the full database.
+An interactive reference for trees and plants, presented as a book. Each species opens as a
+two-page spread: a cinematic portrait on one side, field notes and its leaves on the other.
+Opening a leaf reveals its anatomy — venation skeleton and a layered cross-section. A free tier
+covers common species; rare and endangered species unlock with Pro.
 
 This document records the design decisions and the reasoning behind them.
 
 ## 1. Product requirements
 
-1. Page layout is generated from a botanical structure (trunk → branches → leaves). Each leaf is
-   a focusable, indexable DOM node carrying one fact.
-2. Leaves and branches animate between glow and dim states on independent cycles.
-3. Free tier covers curated species; Pro unlocks the full database, deeper fields, and search.
-   Access is enforced at the data layer, not only in the UI.
-4. The data model and routing leave room for a later "book/diary" mode (chapters, bookmarks,
-   reading progress) without a rewrite.
+1. Each species is a book spread: real licensed portrait, field notes (summary, taxonomy), and
+   its facts presented as leaf cards.
+2. Opening a leaf transitions to an anatomy view — drawn venation skeleton plus a cross-section
+   of the tissue layers, revealed sequentially.
+3. Rarity drives access: common/uncommon are free; rare/endangered are Pro. Enforced at the data
+   layer, not only in the UI.
+4. Imagery is real and properly attributed (Wikimedia Commons), unified by a consistent cinematic
+   treatment so species stay distinct yet cohesive.
+5. The data model leaves room for a later expanded "diary" mode (chapters, bookmarks, reading
+   progress) without a rewrite.
 
 ## 2. Stack
 
@@ -23,8 +27,10 @@ This document records the design decisions and the reasoning behind them.
 | Framework | Next.js 16, App Router, RSC | SSR/ISR for SEO on an information site; Server Components keep client JS small. A pure SPA would weaken SEO; Astro is strong for content but less suited to the auth/Pro flows. |
 | Language | TypeScript (strict) | The `Plant` model drives the entire render pipeline. |
 | Styling | Tailwind v4 | Utility-first, minimal unused CSS. |
-| Animation | CSS keyframes; GSAP only where JS is required | The glow effect is GPU-composited CSS, with no main-thread cost, and honours `prefers-reduced-motion`. |
-| Visualization | SVG branches + DOM leaves | Leaf text must be selectable, accessible, and indexable. WebGL makes readable text and accessibility harder, so it is reserved for optional decorative accents. |
+| Type | Fraunces (serif) for display, Geist for body | The serif gives the editorial, book-like reading feel. |
+| Animation | CSS keyframes | Glow, draw-on veins, sequential layer reveals, and the popup transition are GPU-composited CSS; no main-thread cost, honours `prefers-reduced-motion`. |
+| Imagery | Real photos (Wikimedia Commons, CC) + cinematic CSS treatment | Real photos read as authentic, not artificial. A shared duotone/glow/vignette treatment keeps a cohesive house style and attribution is tracked per image. |
+| Leaf anatomy | Hand-drawn SVG (venation + cross-section) | A clean diagram is clearer than a micrograph, scales crisply, and is tinted per species. |
 | Auth + DB | Supabase (Postgres, Auth, RLS, Storage) | Single service for users, data, and storage. Row-Level Security enforces tier access in the database. |
 | Payments | Stripe (Checkout + webhook → `profiles.tier`) | Deferred to Phase 3. |
 | Hosting | Vercel + Supabase cloud | Matches the framework; preview deploys per PR. |
@@ -55,39 +61,33 @@ behind RLS. A single `getPlant(slug, user)` function hides the source from the U
 
 ```ts
 type Tier = "free" | "pro";
+type Rarity = "common" | "uncommon" | "rare" | "endangered";
 
 interface Plant {
   slug: string;
   commonName: string;
   scientificName: string;
-  tier: Tier;
+  rarity: Rarity;          // drives Pro gating via plantTier()
+  accent: string;          // species hue for the cinematic treatment + anatomy
+  foliage: string;
+  leafStyle: LeafStyle;    // shape used by the anatomy skeleton
+  image: string;           // /public/plants/<slug>.jpg
+  credit: ImageCredit;     // author, license, source URL
   taxonomy: { family: string; genus: string; species: string };
-  structure: TreeStructure;
   summary: string;
-}
-
-interface TreeStructure {
-  trunk: Branch;
-}
-
-interface Branch {
-  id: string;
-  angle: number;   // degrees from parent
-  length: number;  // relative to canvas
-  children: Branch[];
-  leaves: Leaf[];
+  structure: TreeStructure; // holds the leaves (facts)
 }
 
 interface Leaf {
   id: string;
   field: string;
   value: string;
-  tier: Tier;
+  tier: Tier;              // a single leaf can be Pro-only
 }
 ```
 
-Branches represent topics and leaves represent facts, so the structure that renders the figure
-also organizes the content.
+`plantTier()` derives access from rarity (rare/endangered → Pro). `allLeaves()` flattens the
+structure into the facts shown as leaf cards.
 
 ## 5. Security
 
@@ -109,17 +109,19 @@ also organizes the content.
 ## 7. Layout
 
 ```
+public/plants/             # licensed species portraits, <slug>.jpg
 src/
   app/
-    page.tsx                 # landing grid of species
-    plant/[slug]/page.tsx    # single plant rendered from its structure
+    page.tsx                 # the garden — image grid of species
+    plant/[slug]/page.tsx    # the book spread for one species
     api/                     # route handlers (search, stripe) — later
   components/
-    tree/PlantTree.tsx       # SVG branches + DOM leaves + glow
-    tree/layout.ts           # structure → geometry
+    PlantBook.tsx            # two-page spread + leaf cards
+    leaf/LeafAnatomy.tsx     # anatomy popup (skeleton + cross-section)
+    leaf/shapes.ts           # leaf outlines per leafStyle
   data/
-    plants.ts                # sample species
-    types.ts                 # data model
+    plants.ts                # species data
+    types.ts                 # data model + plantTier()/allLeaves()
   lib/
     plants.ts                # data-layer seam (content ⇄ Supabase)
 ```
