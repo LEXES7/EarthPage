@@ -24,7 +24,69 @@ const englishOak: Plant = {
       { part: "Leaves & bark", safe: "no", note: "Not eaten; high tannin content, toxic to livestock in bulk." },
     ],
   },
-  taxonomy: { family: "Fagaceae", genus: "Quercus", species: "Q. robur" },
+  taxonomy: { order: "Fagales", family: "Fagaceae", genus: "Quercus", species: "Q. robur" },
+  otherNames: ["Pedunculate oak", "Common oak", "European oak"],
+  etymology:
+    'From Latin quercus ("oak") and robur ("strength, hard timber"). The English name reflects ' +
+    "the tree's long association with Britain.",
+  description:
+    "The English oak is a massive, long-lived deciduous tree and a keystone of European woodland. " +
+    "Its spreading crown, rugged bark and acorn crops have shaped landscapes, folklore and " +
+    "shipbuilding for millennia, and it supports more wildlife than almost any other native tree.",
+  morphology: {
+    height: "Typically 20–30 m, occasionally to 40 m",
+    spread: "Broad, rounded crown to ~25 m",
+    bark: "Grey-brown, deeply grooved into vertical plates, often burred",
+    leaves: "Broadly oblong, 10–12 cm, with 3–6 rounded lobes and small ear-like auricles; nearly stalkless",
+    flowers: "Wind-pollinated yellow-green catkins in spring",
+    fruit: "Acorns in clusters of 2–3 on long stalks (peduncles), set in shallow cups",
+  },
+  phenology: { habit: "Deciduous broadleaf tree", flowering: "April–May", fruiting: "Acorns ripen Sep–Oct" },
+  distribution: {
+    nativeRange: "Most of Europe, extending into western Asia",
+    habitat: "High-canopy woodland, wood pasture and hedgerows; tolerates seasonal flooding",
+    soil: "Deep, fertile, near-neutral; tolerant of heavy clay",
+    climate: "Temperate; full sun, moisture-loving",
+  },
+  lifespan: "Commonly 500+ years; some exceed 1,000",
+  growthRate: "Slow to moderate",
+  ecology:
+    "Supports more life than almost any other British tree — over 2,300 associated species, " +
+    "several hundred of which depend on it alone. Acorns feed jays, squirrels, deer and wild boar.",
+  conservation: {
+    status: "Least Concern",
+    source: "IUCN Red List",
+    trend: "Stable",
+    threats: ["Acute oak decline", "Oak processionary moth", "Powdery mildew", "Sudden oak death (Phytophthora)"],
+  },
+  uses: [
+    { category: "Timber", note: "Strong, durable heartwood for ships, beams, furniture and barrels." },
+    { category: "Culinary", note: "Leached acorns ground into flour or roasted as a coffee substitute." },
+    { category: "Medicinal", note: "Tannin-rich bark used historically as an astringent." },
+    { category: "Cultural", note: "A national symbol of strength; 'heart of oak' built navies." },
+  ],
+  cultivation: {
+    propagation: "Sow fresh acorns in autumn; large trees transplant poorly.",
+    care: "Give deep, moist soil and room for a wide crown in full sun.",
+  },
+  identification: [
+    "Leaf base has small lobes (auricles)",
+    "Acorns on long stalks (peduncles)",
+    "Shallow acorn cups",
+    "Leaf undersides lack star-shaped hairs",
+  ],
+  lookAlikes: [
+    { name: "Sessile oak (Quercus petraea)", distinguish: "Acorns stalkless; leaves on longer stalks without auricles." },
+  ],
+  facts: [
+    "Its genome (~26,000 genes) was sequenced in 2016.",
+    "England has more ancient oaks than the rest of Europe combined.",
+    "Some European oaks may be over 1,000 years old.",
+  ],
+  references: [
+    { label: "Wikipedia — Quercus robur", url: "https://en.wikipedia.org/wiki/Quercus_robur" },
+    { label: "Woodland Trust — English oak", url: "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/" },
+  ],
   summary:
     "A long-lived deciduous tree native to Europe, the English oak supports more " +
     "biodiversity than almost any other native tree.",
@@ -129,7 +191,66 @@ const ladyFern: Plant = {
       { part: "Fiddleheads", safe: "caution", note: "Occasionally eaten cooked, but safety is not established." },
     ],
   },
-  taxonomy: { family: "Athyriaceae", genus: "Athyrium", species: "A. filix-femina" },
+  taxonomy: { order: "Polypodiales", family: "Athyriaceae", genus: "Athyrium", species: "A. filix-femina" },
+  otherNames: ["Common lady-fern", "Female fern"],
+  etymology:
+    'The epithet filix-femina means "female fern", historically contrasted with the sturdier ' +
+    '"male fern" (Dryopteris filix-mas). Athyrium alludes to the variable spore-case covers.',
+  description:
+    "A graceful, deciduous fern of damp woodland, the lady fern forms an elegant shuttlecock of " +
+    "finely divided fronds. Like all ferns it bears no flowers or seeds, reproducing instead by " +
+    "spores carried on the undersides of its leaves.",
+  morphology: {
+    height: "Fronds 20–90 cm, in a clump",
+    spread: "Clump-forming, ~60–90 cm across",
+    leaves: "Lacy, light yellow-green fronds, two to three times divided (bipinnate–tripinnate)",
+    flowers: "None — a non-flowering fern",
+    fruit: "None; spores held in kidney-covered sori beneath the fronds",
+  },
+  phenology: { habit: "Deciduous fern (herbaceous perennial)", fruiting: "Spores ripen Jul–Sep" },
+  distribution: {
+    nativeRange: "Temperate Europe, Asia, North America and North Africa",
+    habitat: "Damp, shady woodland, stream banks and ditches",
+    soil: "Moist, humus-rich, slightly acidic",
+    climate: "Cool temperate; very cold-hardy (below −20 °C)",
+  },
+  lifespan: "Perennial; clumps persist for many years",
+  growthRate: "Moderate; dies back each winter",
+  ecology:
+    "Forms lush understorey cover in wet woods, sheltering invertebrates and amphibians and " +
+    "helping hold streamside soils. Spreads by wind-blown spores.",
+  conservation: {
+    status: "Secure (not threatened)",
+    source: "NatureServe (G5)",
+    threats: ["Loss and drainage of wet woodland"],
+  },
+  uses: [
+    { category: "Ornamental", note: "Widely grown in shade gardens; several cultivars hold the RHS Award of Garden Merit." },
+    { category: "Culinary", note: "Young fiddleheads have been eaten cooked, though this is not recommended." },
+    { category: "Medicinal", note: "Used in folk medicine; not in modern clinical use." },
+  ],
+  cultivation: {
+    propagation: "By spores, or by dividing established clumps in spring.",
+    care: "Keep soil reliably moist in shade; mulch and remove old fronds.",
+  },
+  identification: [
+    "Fronds divided three times into a lacy outline",
+    "Clump / shuttlecock habit, not creeping",
+    "Kidney-shaped covers over the sori beneath",
+    "Often a reddish frond stalk (stipe)",
+  ],
+  lookAlikes: [
+    { name: "Male fern (Dryopteris filix-mas)", distinguish: "Coarser, less divided fronds; round sori; more upright." },
+  ],
+  facts: [
+    "Now often split into three separate species.",
+    "Among the commonest woodland ferns of the north temperate zone.",
+    "Reproduces by dust-like spores rather than seeds.",
+  ],
+  references: [
+    { label: "Wikipedia — Athyrium filix-femina", url: "https://en.wikipedia.org/wiki/Athyrium_filix-femina" },
+    { label: "USDA Forest Service — Lady fern", url: "https://www.fs.usda.gov/wildflowers/plant-of-the-week/athyrium_filix-femina.shtml" },
+  ],
   summary:
     "A delicate, feathery fern of damp woodlands, reproducing by spores rather than seeds.",
   structure: {
@@ -186,7 +307,68 @@ const dragonBlood: Plant = {
       { part: "Leaves", safe: "no", note: "Tough, fibrous; no culinary use." },
     ],
   },
-  taxonomy: { family: "Asparagaceae", genus: "Dracaena", species: "D. cinnabari" },
+  taxonomy: { order: "Asparagales", family: "Asparagaceae", genus: "Dracaena", species: "D. cinnabari" },
+  otherNames: ["Socotra dragon tree"],
+  etymology:
+    'The epithet cinnabari refers to cinnabar, the vermilion mineral — for the blood-red resin. ' +
+    '"Dragon\'s blood" comes from the ancient belief that the resin was the blood of dragons.',
+  description:
+    "Found only on the island of Socotra, this otherworldly tree raises a dense, upturned " +
+    "umbrella of branches on a stout trunk. Cut or wounded, it bleeds a deep red resin — " +
+    "'dragon's blood' — prized since antiquity as dye, varnish and medicine.",
+  morphology: {
+    height: "Up to ~9 m",
+    spread: "Umbrella crown to ~12 m",
+    bark: "Smooth and grey over a thick, water-storing trunk",
+    leaves: "Stiff, sword-like, to 60 cm, in dense rosettes at the branch tips; shed every 3–4 years",
+    flowers: "Small, fragrant white-green clusters, around March",
+    fruit: "Fleshy berries ripening orange-red, with 1–4 bird-dispersed seeds",
+  },
+  phenology: { habit: "Evergreen monocot tree", flowering: "Around March (variable)", fruiting: "Berries mature over following months" },
+  distribution: {
+    nativeRange: "Endemic to the Socotra archipelago, Yemen",
+    habitat: "Arid limestone plateaus and mountains",
+    soil: "Poor, shallow, well-drained",
+    climate: "Hot and arid; depends on mist and monsoon moisture",
+  },
+  lifespan: "Slow-growing and long-lived; age is hard to gauge (no true rings)",
+  growthRate: "Very slow",
+  ecology:
+    "An 'umbrella species': its dense crown shades seedlings and combs moisture from passing mist " +
+    "to water the ground beneath — a linchpin of Socotra's unique ecosystem.",
+  conservation: {
+    status: "Vulnerable",
+    source: "IUCN Red List",
+    trend: "Declining",
+    threats: ["Aridification (up to ~45% habitat loss projected by 2080)", "Overgrazing", "Poor regeneration", "Logging and development"],
+  },
+  uses: [
+    { category: "Resin", note: "'Dragon's blood' used as dye, varnish (including for violins) and folk medicine." },
+    { category: "Cultural", note: "Historically traded around the Mediterranean; used in ritual and cosmetics." },
+    { category: "Material", note: "Leaves worked into rope by Socotrans." },
+  ],
+  cultivation: {
+    propagation: "From seed; extremely slow to establish.",
+    care: "Needs heat, sharp drainage and very little water; frost-tender.",
+  },
+  identification: [
+    "Upturned umbrella crown of densely forking branches",
+    "Blood-red resin from cuts and ripe berries",
+    "Leaves only at the branch tips",
+    "A tree-form monocot with unusual secondary thickening",
+  ],
+  lookAlikes: [
+    { name: "Canary Islands dragon tree (Dracaena draco)", distinguish: "D. cinnabari is endemic to Socotra with a flatter, denser umbrella crown." },
+  ],
+  facts: [
+    "One of only a handful of Dracaena that grow as trees.",
+    "A relict of ancient subtropical forests that once spanned the region.",
+    "Its red resin was a valued trade good in the ancient world.",
+  ],
+  references: [
+    { label: "Wikipedia — Dracaena cinnabari", url: "https://en.wikipedia.org/wiki/Dracaena_cinnabari" },
+    { label: "IUCN Red List — Dracaena cinnabari", url: "https://www.iucnredlist.org/species/30428/9548491" },
+  ],
   summary:
     "Endemic to Socotra, this umbrella-crowned tree bleeds a deep red resin once prized as " +
     "dragon's blood. Slow growth and a drying climate now threaten it.",
@@ -251,7 +433,68 @@ const wollemiPine: Plant = {
       { part: "Cones / seeds", safe: "no", note: "Not used as food; the wild population is legally protected." },
     ],
   },
-  taxonomy: { family: "Araucariaceae", genus: "Wollemia", species: "W. nobilis" },
+  taxonomy: { order: "Araucariales", family: "Araucariaceae", genus: "Wollemia", species: "W. nobilis" },
+  otherNames: ["Wollemi pine (not a true pine)"],
+  etymology:
+    "The genus Wollemia is named for Wollemi National Park, where it was found; the epithet " +
+    "nobilis honours David Noble, its discoverer, and nods to the tree's noble stature.",
+  description:
+    "A 'living fossil' conifer known from fossils long before a living stand was found in 1994. " +
+    "Fewer than 100 mature trees survive in a secret Australian gorge, making it one of the " +
+    "rarest trees on Earth — yet it is now grown worldwide to secure its future.",
+  morphology: {
+    height: "25–40 m",
+    spread: "Often multi-stemmed, with up to ~100 stems",
+    bark: "Dark brown and bubbly, likened to chocolate breakfast cereal",
+    leaves: "Flat, linear, 3–8 cm, lime-green maturing darker, held in twisted ranks",
+    flowers: "None — a conifer; reproduces by cones",
+    fruit: "Green female cones 6–12 cm; slender reddish-brown male cones",
+  },
+  phenology: { habit: "Evergreen coniferous tree", fruiting: "Female cones mature over 18–20 months" },
+  distribution: {
+    nativeRange: "Endemic to a few gorges in Wollemi National Park, New South Wales, Australia",
+    habitat: "Sheltered, moist sandstone gorges within temperate rainforest",
+    soil: "Moist, sheltered, sandstone-derived",
+    climate: "Temperate; hardy from roughly −5 to 45 °C",
+  },
+  lifespan: "Long-lived; individuals possibly 500–1,000 years",
+  growthRate: "Fairly fast in good conditions (to ~8 m in 14 years)",
+  ecology:
+    "One of just three living genera of the ancient Araucariaceae. A genetic bottleneck left the " +
+    "entire wild population almost identical, so it is studied as a window into deep plant history.",
+  conservation: {
+    status: "Critically Endangered",
+    source: "IUCN Red List",
+    trend: "Fewer than 100 mature wild trees",
+    threats: ["Phytophthora root rot", "Bushfire", "Genetic bottleneck", "Illegal collection"],
+  },
+  uses: [
+    { category: "Horticulture", note: "Sold worldwide since 2015 — a deliberate strategy to ease pressure on the wild trees." },
+    { category: "Conservation", note: "Grown in botanic gardens globally as an insurance population." },
+    { category: "Cultural", note: "Promoted in Australia as a living Christmas tree." },
+  ],
+  cultivation: {
+    propagation: "From cuttings and seed; commercially available since 2015.",
+    care: "Grow in containers or sheltered gardens; tolerates a wide temperature range.",
+  },
+  identification: [
+    "Bubbly, dark-brown 'Coco Pops' bark",
+    "Flat linear leaves in twisted ranks",
+    "Multi-stemmed, coppicing habit",
+    "Waxy white cap protecting winter buds",
+  ],
+  lookAlikes: [
+    { name: "Other Araucariaceae (Araucaria, Agathis)", distinguish: "Wollemi has soft flat leaf ranks and uniquely bubbly bark." },
+  ],
+  facts: [
+    "Discovered in 1994 by David Noble — previously known only from fossils.",
+    "Its exact wild location is kept secret to protect it.",
+    "Survived the 2019–20 bushfires thanks to a covert firefighting operation.",
+  ],
+  references: [
+    { label: "Wikipedia — Wollemia", url: "https://en.wikipedia.org/wiki/Wollemia" },
+    { label: "Royal Botanic Gardens, Kew — Wollemi pine", url: "https://www.kew.org/plants/wollemi-pine" },
+  ],
   summary:
     "A 'living fossil' conifer thought extinct until 1994, when fewer than 100 were found in a " +
     "single Australian gorge. Its location is kept secret.",

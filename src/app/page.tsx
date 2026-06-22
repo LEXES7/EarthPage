@@ -55,7 +55,7 @@ export default async function Home() {
                 />
                 <div className="absolute inset-x-0 bottom-0 p-5">
                   <span className="rounded-full border border-white/15 bg-black/30 px-2.5 py-1 text-[9px] uppercase tracking-widest text-white/70 backdrop-blur">
-                    {pro ? `🔒 ${plant.rarity}` : plant.rarity}
+                    {pro ? `${plant.rarity} · Pro` : plant.rarity}
                   </span>
                   <h3 className="mt-2 font-serif text-xl text-white">{plant.commonName}</h3>
                   <p className="font-serif text-sm italic text-white/55">{plant.scientificName}</p>

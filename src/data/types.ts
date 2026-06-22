@@ -49,6 +49,50 @@ export interface EdibilityInfo {
   parts: EdiblePart[];
 }
 
+export interface Morphology {
+  height: string;
+  spread?: string;
+  bark?: string;
+  leaves: string;
+  flowers?: string;
+  fruit?: string;
+}
+
+export interface Phenology {
+  habit: string; // e.g. "Deciduous broadleaf tree"
+  flowering?: string;
+  fruiting?: string;
+}
+
+export interface Distribution {
+  nativeRange: string;
+  habitat: string;
+  soil?: string;
+  climate?: string;
+}
+
+export interface Conservation {
+  status: string; // e.g. "Least Concern", "Critically Endangered"
+  source?: string; // e.g. "IUCN Red List"
+  trend?: string;
+  threats: string[];
+}
+
+export interface Use {
+  category: string; // "Timber", "Culinary", "Medicinal", "Cultural", "Ornamental"
+  note: string;
+}
+
+export interface LookAlike {
+  name: string;
+  distinguish: string;
+}
+
+export interface Reference {
+  label: string;
+  url: string;
+}
+
 export interface Plant {
   slug: string;
   commonName: string;
@@ -61,9 +105,25 @@ export interface Plant {
   /** Portrait under /public/plants/<slug>.jpg */
   image: string;
   credit: ImageCredit;
+  taxonomy: { order: string; family: string; genus: string; species: string };
+  otherNames: string[];
+  etymology: string;
+  summary: string; // one-line, for cards and meta
+  description: string; // fuller overview
+  morphology: Morphology;
+  phenology: Phenology;
+  distribution: Distribution;
+  lifespan: string;
+  growthRate: string;
+  ecology: string;
+  conservation: Conservation;
   edibility: EdibilityInfo;
-  taxonomy: { family: string; genus: string; species: string };
-  summary: string;
+  uses: Use[];
+  cultivation?: { propagation: string; care: string };
+  identification: string[];
+  lookAlikes?: LookAlike[];
+  facts: string[];
+  references: Reference[];
   structure: TreeStructure;
 }
 

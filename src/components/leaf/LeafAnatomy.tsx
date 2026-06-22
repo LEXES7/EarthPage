@@ -51,9 +51,9 @@ export default function LeafAnatomy({ plant, leaf, locked, onClose }: Props) {
           type="button"
           onClick={onClose}
           aria-label="Close"
-          className="absolute right-4 top-4 z-10 grid h-9 w-9 place-items-center rounded-full border border-white/10 bg-black/40 text-white/70 transition hover:bg-black/70 hover:text-white"
+          className="absolute right-4 top-4 z-10 grid h-9 w-9 place-items-center rounded-full border border-white/10 bg-black/40 text-lg text-white/70 transition hover:bg-black/70 hover:text-white"
         >
-          ✕
+          ×
         </button>
 
         {/* Left page: the leaf skeleton (venation) */}
@@ -110,8 +110,7 @@ export default function LeafAnatomy({ plant, leaf, locked, onClose }: Props) {
 
           {locked ? (
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              🔒 This is a rare species. Unlock the full anatomy and field notes with EarthPages
-              Pro.
+              This is a rare species. Unlock the full anatomy and field notes with EarthPages Pro.
             </p>
           ) : (
             <p className="mt-4 text-sm leading-relaxed text-white/80">{leaf.value}</p>

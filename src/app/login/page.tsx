@@ -42,7 +42,7 @@ export default function LoginPage() {
         </p>
       ) : sent ? (
         <p className="mt-8 rounded-2xl border border-[color:var(--accent)]/30 bg-white/[0.03] p-4 text-sm text-white/80">
-          ✦ Check <span className="text-white">{email}</span> for your magic link.
+          Check <span className="text-white">{email}</span> for your magic link.
         </p>
       ) : (
         <form onSubmit={submit} className="mt-8 space-y-3" style={{ ["--accent" as string]: "#9bffc4" }}>

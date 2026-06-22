@@ -5,8 +5,6 @@ a cinematic portrait beside its field notes and leaves. Open a leaf to explore i
 venation skeleton and a layered cross-section. Common species are free; rare and endangered
 species unlock with Pro.
 
-See [ARCHITECTURE.md](./ARCHITECTURE.md) for the design and reasoning.
-
 ## Stack
 
 - Next.js 16 (App Router, React Server Components)
@@ -63,6 +61,6 @@ page (author + licence, linking to the source).
 
 ## Status
 
-The reading experience is complete: garden, book spreads, rarity-based Pro locks, and the leaf
-anatomy view. Backend (auth, database, payments) is next — see
-[ARCHITECTURE.md](./ARCHITECTURE.md#8-roadmap).
+The reading experience is complete: garden, multi-page species books, rarity-based Pro locks,
+edibility pages, and the leaf anatomy view. Supabase auth and server-side Pro gating are in place;
+payments are next.

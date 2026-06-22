@@ -42,7 +42,7 @@ export default async function AccountPage() {
                   : "border border-white/15 text-white/70"
               }`}
             >
-              {viewer.isPro ? "✦ Pro" : "Free"}
+              {viewer.isPro ? "Pro" : "Free"}
             </span>
           </div>
 

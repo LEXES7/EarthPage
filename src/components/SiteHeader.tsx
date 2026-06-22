@@ -19,7 +19,7 @@ export default async function SiteHeader() {
               href="/account"
               className={`transition hover:text-white ${viewer.isPro ? "text-[#9bffc4]" : "text-white/55"}`}
             >
-              {viewer.isPro ? "✦ Pro" : "Account"}
+              {viewer.isPro ? "Pro" : "Account"}
             </Link>
           ) : (
             <Link href="/login" className="text-white/55 transition hover:text-white">

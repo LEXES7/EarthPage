@@ -90,7 +90,7 @@ function Paywall({
       <div className="absolute inset-0 bg-black/55" />
       <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
         <span className="rounded-full border border-[#9bffc4]/40 px-3 py-1 text-[10px] uppercase tracking-widest text-[#9bffc4]">
-          🔒 {rarity} · Pro
+          {rarity} · Pro
         </span>
         <h1 className="mt-4 font-serif text-4xl text-white">{name}</h1>
         <p className="font-serif italic text-white/60">{scientific}</p>
