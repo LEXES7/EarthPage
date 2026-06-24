@@ -38,8 +38,8 @@ export interface PlantCard {
   hasBook: boolean;
 }
 
-export async function getCatalogCards(): Promise<PlantCard[]> {
-  return ALL.map((p) => ({
+function toCard(p: Plant): PlantCard {
+  return {
     slug: p.slug,
     commonName: p.commonName,
     scientificName: p.scientificName,
@@ -48,5 +48,18 @@ export async function getCatalogCards(): Promise<PlantCard[]> {
     rarity: p.rarity ?? "common",
     edible: p.edibility?.status,
     hasBook: details.has(p.slug),
-  })).sort((a, b) => a.commonName.localeCompare(b.commonName));
+  };
+}
+
+export async function getCatalogCards(): Promise<PlantCard[]> {
+  return ALL.map(toCard).sort((a, b) => a.commonName.localeCompare(b.commonName));
+}
+
+// Other species of the same kind, for cross-linking between books.
+export async function getRelatedCards(slug: string, limit = 6): Promise<PlantCard[]> {
+  const current = ALL.find((p) => p.slug === slug);
+  if (!current) return [];
+  return ALL.filter((p) => p.slug !== slug && p.kind === current.kind && p.image)
+    .slice(0, limit)
+    .map(toCard);
 }

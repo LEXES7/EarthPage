@@ -2,11 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getFlagshipSlugs, getPlant } from "@/lib/plants";
+import { getFlagshipSlugs, getPlant, getRelatedCards } from "@/lib/plants";
 import { plantTier } from "@/data/types";
 import { getViewer } from "@/lib/auth";
 import { gatePlant } from "@/lib/gate";
 import PlantBook from "@/components/PlantBook";
+import RelatedSpecies from "@/components/RelatedSpecies";
 
 // Prerender the flagship books; the rest render on demand.
 export async function generateStaticParams() {
@@ -24,6 +25,7 @@ export async function generateMetadata({
   return {
     title: `${plant.commonName} (${plant.scientificName}) — EarthPages`,
     description: plant.summary ?? plant.description?.slice(0, 160),
+    alternates: { canonical: `/plant/${slug}` },
     openGraph: { images: plant.image ? [plant.image] : [] },
   };
 }
@@ -39,6 +41,7 @@ export default async function PlantPage({
 
   const viewer = await getViewer();
   const isProSpecies = plantTier(plant) === "pro";
+  const related = await getRelatedCards(plant.slug);
 
   return (
     <main className="mx-auto w-full max-w-5xl px-5 py-10">
@@ -59,6 +62,7 @@ export default async function PlantPage({
           <PlantBook plant={gatePlant(plant, viewer.isPro)} isPro={viewer.isPro} />
         )}
       </div>
+      <RelatedSpecies cards={related} kind={plant.kind} />
     </main>
   );
 }
