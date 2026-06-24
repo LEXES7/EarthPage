@@ -14,6 +14,9 @@ export default async function SiteHeader() {
           <Link href="/" className="text-white/55 transition hover:text-white">
             Garden
           </Link>
+          <Link href="/glossary" className="text-white/55 transition hover:text-white">
+            Glossary
+          </Link>
           {viewer.userId ? (
             <Link
               href="/account"
